@@ -113,8 +113,12 @@ procedure type, base budget and page count.
 The tender documents themselves are public records published by the Spanish
 [Plataforma de Contratación del Sector Público](https://contrataciondelestado.es), and can be located there by
 *expediente* reference. The manifest does not record a permanent source URL, because the documents were harvested
-from the platform's syndication feed, whose entries are rotated out; this is also why PDF copies are included in
-the archived Zenodo deposit, which is the reliable route to the exact files used here.
+from the platform's syndication feed, whose entries are rotated out.
+
+**Every figure reported in the paper can be reproduced from this repository without the source PDFs**, because the
+raw per-run extraction outputs are committed in `data/runs/`. The PDFs are needed only to re-run extraction from
+scratch or to repeat the human-study tasks. A copy of the document set is being prepared as a separate archived
+release; until then it is available from the corresponding author on request.
 
 ---
 
