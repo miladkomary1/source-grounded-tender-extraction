@@ -11,9 +11,14 @@ license: MIT
 authors:
   - family-names: "Komarizadehasl"
     given-names: "Seyedmilad"
-    affiliation: "Universitat Politecnica de Catalunya"
-    # ORCID: add yours here ->  orcid: "https://orcid.org/0000-0000-0000-0000"
-  # TODO(author): add the co-authors of the manuscript, in the manuscript's order.
+    email: "milad.komary@upc.edu"
+    orcid: "https://orcid.org/0000-0002-9010-2611"
+    affiliation: "Department of Construction Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain"
+  - family-names: "Xia"
+    given-names: "Ye"
+    email: "yxia@tongji.edu.cn"
+    orcid: "https://orcid.org/0000-0002-1548-0567"
+    affiliation: "School of Civil Engineering, Tongji University, Shanghai, China"
 keywords:
   - construction procurement
   - information extraction
@@ -31,3 +36,9 @@ preferred-citation:
   authors:
     - family-names: "Komarizadehasl"
       given-names: "Seyedmilad"
+      orcid: "https://orcid.org/0000-0002-9010-2611"
+      affiliation: "Department of Construction Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain"
+    - family-names: "Xia"
+      given-names: "Ye"
+      orcid: "https://orcid.org/0000-0002-1548-0567"
+      affiliation: "School of Civil Engineering, Tongji University, Shanghai, China"

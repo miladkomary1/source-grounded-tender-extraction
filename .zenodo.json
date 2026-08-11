@@ -1,13 +1,19 @@
 {
   "title": "Source-grounded hybrid extraction of construction procurement documents: evaluation harness, labels and reference implementation",
-  "description": "Reference implementation, evaluation harness, 20 hand-verified golden labels, the 26-document replication corpus manifest, raw run outputs, analysis scripts and two human-study instruments, supporting the manuscript \"Source-grounded hybrid extraction of decision-critical information from construction procurement documents\".",
+  "description": "Reference implementation, evaluation harness, 20 hand-verified golden labels, the 26-document replication corpus manifest, raw run outputs, analysis scripts and two human-study instruments, supporting the manuscript \"Source-grounded hybrid extraction of decision-critical information from construction procurement documents\". The workflow requires every surfaced value to be locatable in the source text and validates monetary arithmetic before a value is shown. The deployed web application is deliberately excluded; it forms no part of the reported method.",
   "license": "mit",
   "upload_type": "software",
   "access_right": "open",
   "creators": [
     {
       "name": "Komarizadehasl, Seyedmilad",
-      "affiliation": "Universitat Politecnica de Catalunya"
+      "affiliation": "Department of Construction Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain",
+      "orcid": "0000-0002-9010-2611"
+    },
+    {
+      "name": "Xia, Ye",
+      "affiliation": "School of Civil Engineering, Tongji University, Shanghai, China",
+      "orcid": "0000-0002-1548-0567"
     }
   ],
   "keywords": [
@@ -17,12 +23,5 @@
     "hallucination",
     "source grounding",
     "tender documents"
-  ],
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "identifier": "10.0000/TODO-add-article-doi-once-accepted",
-      "scheme": "doi"
-    }
   ]
 }
