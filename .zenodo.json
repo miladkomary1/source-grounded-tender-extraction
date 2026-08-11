@@ -1,0 +1,28 @@
+{
+  "title": "Source-grounded hybrid extraction of construction procurement documents: evaluation harness, labels and reference implementation",
+  "description": "Reference implementation, evaluation harness, 20 hand-verified golden labels, the 26-document replication corpus manifest, raw run outputs, analysis scripts and two human-study instruments, supporting the manuscript \"Source-grounded hybrid extraction of decision-critical information from construction procurement documents\".",
+  "license": "mit",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Komarizadehasl, Seyedmilad",
+      "affiliation": "Universitat Politecnica de Catalunya"
+    }
+  ],
+  "keywords": [
+    "construction procurement",
+    "information extraction",
+    "large language models",
+    "hallucination",
+    "source grounding",
+    "tender documents"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.0000/TODO-add-article-doi-once-accepted",
+      "scheme": "doi"
+    }
+  ]
+}

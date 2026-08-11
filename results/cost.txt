@@ -1,0 +1,38 @@
+=== COST, RECOMPUTED ON THE FAIR BASELINE (MAJOR 4) ===
+prices accessed 2026-08-11; token counts are measured and price-independent
+
+MEASURED per document (workflow, single focused call):
+  input  24,711 tokens
+  output 2,702 tokens
+
+Workflow cost per document
+  gemini-2.5-flash : $0.0142
+  deepseek-chat    : $0.0081
+
+Baselines per document
+  (a) naive per-chunk frontier (12 calls): $1.509   [what the 95 % claim used]
+  (b) FAIR single frontier call             : $0.115   [what the reviewer asks for]
+
+Reduction vs (a) naive : 99 %   <- the current headline; keep only as context
+Reduction vs (b) FAIR  : 88 % (flash) / 93 % (deepseek)   <- NEW HEADLINE
+
+Note: the deterministic-only path costs ZERO tokens and requires no API key.
+For the fields it covers, the saving against any model baseline is 100 %.
+
+=== RECONCILIATION WITH v17 ===
+  v17 printed workflow cost   : EUR 0.03-0.06 per document (conservative estimate)
+  measured from token counts  : ~EUR 0.013 per document (flash, 2026-08-11 prices)
+  -> the earlier figure OVERSTATED our own cost; correcting it downward would
+     INFLATE the saving. We keep the conservative claim.
+  conservative saving vs fair baseline: 40-70 %  (Reviewer #1's own arithmetic)
+
+=== RECOMMENDED WORDING (conservative; use in abstract and conclusions) ===
+Measured against the fairer baseline of a single frontier-model call per
+document (of the order of ten euro cents), the workflow at three to six euro
+cents reduces model cost by roughly 40 to 70 percent — a factor of two to three —
+rather than the ninety-five percent quoted against our own initial per-chunk
+implementation, which is retained only as context. Per document the workflow
+consumes about 25 thousand input and 2.7 thousand output tokens; these counts are
+reported as the primary quantity because they remain valid after provider
+prices change (prices accessed 2026-08-11). The deterministic path costs no
+tokens at all.

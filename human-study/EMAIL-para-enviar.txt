@@ -1,0 +1,28 @@
+Asunto: Colaboración breve (45 min) — validación de una herramienta de análisis de pliegos
+
+Estimado/a [Nombre]:
+
+Como comentamos, estamos finalizando la validación académica de la herramienta de
+análisis automático de pliegos de la que hablamos. Para publicar los resultados en una
+revista científica necesitamos que una persona ajena al desarrollo compruebe de forma
+independiente parte de los datos: es un requisito de los revisores, no una formalidad.
+
+Le pido ayuda con una tarea de unos 45 minutos. Adjunto una carpeta con:
+
+  - un archivo HTML que se abre con doble clic (no hay que instalar nada),
+  - los pliegos en PDF que hay que consultar,
+  - un LEEME con las instrucciones.
+
+Al terminar, el propio archivo genera un fichero .json que solo hay que enviarme por correo.
+
+Puede elegir cualquiera de las dos tareas (o ambas):
+  A) Anotación independiente: localizar 32 datos en 4 pliegos.
+  B) Auditoría: revisar si 60 datos extraídos automáticamente son correctos.
+
+Quien participe constará en los agradecimientos del artículo, y por supuesto tendrá acceso
+prioritario a la herramienta cuando esté lista.
+
+Muchas gracias,
+Seyedmilad Komarizadehasl
+Universitat Politècnica de Catalunya
+milad.komary@upc.edu

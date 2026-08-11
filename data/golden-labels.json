@@ -1,0 +1,31 @@
+{
+  "_comment": "Golden answers for the eval/benchmark corpus, keyed by PDF filename. Each value is a substring the extracted field must contain (accent/spacing-insensitive). Every value below was hand-verified to appear verbatim in the source pliego (see scripts via the source-context dump). Framework/model pliegos (9 f, Next-generation) legitimately lack specific amounts — those fields are intentionally not labeled.",
+  "PCAP DEFINITIVO.pdf": {
+    "organo_contratacion": "Servicio Murciano de Salud",
+    "tipo_contrato": "Obras",
+    "procedimiento": "Abierto",
+    "plazo_ejecucion": "6 SEMANAS",
+    "valor_estimado_contrato": "53.169,72",
+    "presupuesto_base_con_iva": "64.335,36",
+    "iva": "21%"
+  },
+  "Pliego de Cláusula Administrativa.PDF": {
+    "tipo_contrato": "Obras",
+    "procedimiento": "Abierto",
+    "tramitacion": "Ordinaria",
+    "valor_estimado_contrato": "163.090.932,28",
+    "presupuesto_base_con_iva": "135.909.110,23",
+    "iva": "21%",
+    "garantia_definitiva": "5%",
+    "plazo_garantia": "24 MESES"
+  },
+  "PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf": {
+    "tipo_contrato": "Obras",
+    "procedimiento": "Abierto",
+    "garantia_definitiva": "5%"
+  },
+  "9 f PCAP.pdf": {
+    "tipo_contrato": "obras",
+    "procedimiento": "Abierto"
+  }
+}

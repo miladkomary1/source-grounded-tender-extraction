@@ -1,0 +1,24 @@
+=== MAJOR 7 — EXTERNAL BASELINE: layout-aware parsing (Docling) vs pdfjs ===
+Extraction engine held constant; only the PARSER differs.
+
+doc                                  parser   secs    chars   cov/22  acc/gold
+9 f PCAP.pdf                         pdfjs       1   415041    1/22    1/2
+9 f PCAP.pdf                         docling   523   736282    2/22    1/2
+PCAP DEFINITIVO.pdf                  pdfjs       0    78344    4/22    4/7
+PCAP DEFINITIVO.pdf                  docling   304    86019    2/22    2/7
+PCAP-Next-generation-OBRAS-PROC.-A   pdfjs       1   388076    3/22    3/3
+PCAP-Next-generation-OBRAS-PROC.-A   docling   738   453009    2/22    2/3
+Pliego de Cláusula Administrativa.   pdfjs       1   504814    5/22    5/8
+Pliego de Cláusula Administrativa.   docling   224   515069    5/22    5/8
+
+TOTALS (4 documents, 88 field-slots, 20 golden values)
+  pdfjs   : coverage 13/88, accuracy 13/20, parse time 3.0 s total
+  Docling : coverage 11/88, accuracy 10/20, parse time 1790 s total
+  speed   : Docling is ~603x slower
+
+INTERPRETATION
+  Layout-aware parsing changes deterministic coverage by -2 slots and
+  accuracy by -3 values, at ~447 s per document versus under a second.
+  This is the external anchor Reviewer #1 asked for: it is a genuinely
+  different, published parsing method (IBM DocLayNet + TableFormer) applied to
+  the same documents with our extraction engine unchanged.

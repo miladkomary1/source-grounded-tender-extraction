@@ -1,0 +1,41 @@
+=== MAJOR 3 — CONSOLIDATION OF THE CANONICAL CONFIGURATION ===
+
+Full workflow (gated, strict gate) — accuracy of 20 golden values
+  C1 (Table 5 campaign, _run_flash_ablation.log)
+    n=10  mean 17.00  SD 1.25
+  C2 (confirmatory re-run, _run_ablation2.log)
+    n=10  mean 16.20  SD 0.63
+  C3 (sensitivity campaign, _run_robust.log)
+    n=10  mean 16.40  SD 1.35
+
+  POOLED over 30 runs / 3 campaigns
+    grand mean            : 16.53 / 20
+    within-campaign SD    : 1.12
+    between-campaign SD   : 0.42  (campaign means 17.0, 16.2, 16.4)
+    95% CI, runs pooled naively : ±0.43   → 16.5 ± 0.4
+    95% CI, campaign-clustered  : ±1.03   → 16.5 ± 1.0   <-- RECOMMENDED HEADLINE
+    (the clustered interval is the honest one: it absorbs the session-to-session
+     drift of the unpinned deployed model that produced 17.0 / 16.2 / 16.4.)
+
+--- PAIRED comparison, full workflow vs ungated hybrid (same runs) ---
+  C1 (Table 5 campaign, _run_flash_ablation.log): mean difference -1.10
+  C2 (confirmatory re-run, _run_ablation2.log): mean difference -1.50
+  C3 (sensitivity campaign, _run_robust.log): per-run ungated not logged — excluded from the paired test
+  POOLED paired difference over 20 runs: -1.30 ± 0.27 values
+  → the gate costs 1.30 ± 0.27 correct values (95% CI excludes 0: YES, significant)
+  This paired estimate is both tighter and more honest than juxtaposing
+  the marginal intervals 16.5 vs 18.0, exactly as Reviewer #1 requested.
+
+--- Relaxed (token-based) gate — POST-HOC sensitivity, same campaign ---
+  strict 16.40  →  relaxed 18.00
+  paired gain 1.60 ± 0.60 values (in-sample; NOT a headline figure)
+
+--- Language-model engine alone, pooled ---
+  grand mean 15.07 / 20 over 30 runs; campaign means 15.4, 14.8, 15.0
+
+=== RECOMMENDED CANONICAL SENTENCE FOR THE PAPER ===
+Across 30 runs in 3 independent campaigns, the full workflow (strict gate)
+recovered 16.5 ± 1.0 of the 20 verified values (95% CI, campaign-clustered;
+within-campaign SD 1.12, between-campaign SD 0.42), and surfaced no value that
+failed the automatic locatability test. Against the ungated hybrid on the same runs,
+the gate costs 1.3 ± 0.3 correct values (paired, n=20).

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "Source-grounded hybrid extraction of construction procurement documents: evaluation harness, labels and reference implementation"
+abstract: >-
+  Reference implementation, evaluation harness, hand-verified labels and analysis
+  scripts for a source-grounded hybrid workflow that extracts decision-critical
+  information from Spanish public works tender specifications. Every surfaced value
+  must be locatable in the source text and monetary arithmetic is validated.
+type: software
+license: MIT
+authors:
+  - family-names: "Komarizadehasl"
+    given-names: "Seyedmilad"
+    affiliation: "Universitat Politecnica de Catalunya"
+    # ORCID: add yours here ->  orcid: "https://orcid.org/0000-0000-0000-0000"
+  # TODO(author): add the co-authors of the manuscript, in the manuscript's order.
+keywords:
+  - construction procurement
+  - information extraction
+  - large language models
+  - hallucination
+  - source grounding
+  - tender documents
+repository-code: "https://github.com/miladkomary1/source-grounded-tender-extraction"
+preferred-citation:
+  type: article
+  title: "Source-grounded hybrid extraction of decision-critical information from construction procurement documents"
+  journal: "Automation in Construction"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: "Komarizadehasl"
+      given-names: "Seyedmilad"

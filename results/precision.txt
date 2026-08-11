@@ -1,0 +1,11 @@
+=== PRECISION ON THE VERIFIED SUBSET (MINOR 5 / Q3.5) and NON-CIRCULAR EVIDENCE (MAJOR 1) ===
+model gemini-2.5-flash, sampling {"temperature":0,"topP":1,"maxOutputTokens":8192,"thinkingConfig":{"thinkingBudget":0}}, 3 runs
+workflow precision on the verified subset : 88.9 ± 0.0 %   (correct / surfaced among the 20 golden values)
+  of which gate-passed LANGUAGE-MODEL values: 60.0 ± 0.0 %   (3.0/5.0 per run)
+  deterministic values                     : 100.0 %
+
+WHY THIS IS NOT CIRCULAR: the golden labels were fixed independently of the
+grounding gate, so asking "of the values the gate let through, how many are
+CORRECT?" is not answerable by the gate itself. It is a genuine, if small,
+external check on the gate, complementary to (not a substitute for) a full
+human audit of the unlabelled surfaced values.

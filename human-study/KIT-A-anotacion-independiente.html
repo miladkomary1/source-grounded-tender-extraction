@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estudio de anotación independiente — Pliegos de contratación</title>
+<style>
+ :root{--ink:#0A0A0A;--mut:#666;--line:#DDD;--bg:#FAFAF8;--acc:#1F3864;--ok:#1A7A2E;}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+ .wrap{max-width:860px;margin:0 auto;padding:24px 18px 90px}
+ h1{font-size:1.45rem;margin:0 0 4px}
+ h2{font-size:1.05rem;margin:28px 0 10px;color:var(--acc)}
+ .sub{color:var(--mut);font-size:.92rem;margin:0 0 18px}
+ .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-bottom:14px}
+ .item{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:10px}
+ .lab{font-weight:600;font-size:.95rem}
+ .hint{color:var(--mut);font-size:.82rem;margin:2px 0 8px}
+ input[type=text]{width:100%;padding:9px 10px;border:1px solid #BBB;border-radius:6px;font-size:.95rem;font-family:inherit}
+ .row{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:7px}
+ .chk{font-size:.85rem;color:var(--mut);display:flex;align-items:center;gap:6px;cursor:pointer}
+ button{font:inherit;padding:9px 16px;border-radius:6px;border:1px solid var(--ink);background:var(--ink);color:#fff;cursor:pointer}
+ button.ghost{background:#fff;color:var(--ink)}
+ button:disabled{opacity:.45;cursor:not-allowed}
+ .timer{font-variant-numeric:tabular-nums;font-size:1.3rem;font-weight:700;color:var(--acc)}
+ .bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);padding:10px 18px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+ .prog{height:6px;background:#E5E5E5;border-radius:3px;overflow:hidden;flex:1;min-width:120px}
+ .prog>i{display:block;height:100%;background:var(--ok);width:0%}
+ .lik{display:flex;gap:5px;flex-wrap:wrap}
+ .lik label{border:1px solid #BBB;border-radius:5px;padding:5px 10px;cursor:pointer;font-size:.85rem;background:#fff}
+ .lik input{display:none}
+ .lik input:checked+span{font-weight:700;color:var(--acc)}
+ .lik label:has(input:checked){border-color:var(--acc);background:#EEF2FA}
+ code{background:#F1F1EE;padding:1px 5px;border-radius:4px;font-size:.85rem}
+ .done{background:#F0FFF4;border-color:#A7F3D0}
+ ol li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Estudio de anotación independiente de pliegos</h1>
+<p class="sub">Independent annotation study of Spanish public-works tender documents · Universitat Politècnica de Catalunya</p>
+
+<div class="card">
+ <b>¿Qué le pedimos? / What we ask</b>
+ <ol>
+  <li>Abra cada PDF (están en la misma carpeta que este archivo) y <b>busque los datos que se le piden</b>.</li>
+  <li>Escriba el valor <b>tal y como aparece</b> en el documento. Si no aparece, marque «No aparece».</li>
+  <li>Pulse <b>Empezar</b> antes de leer cada documento y <b>Terminar</b> al acabarlo (medimos el tiempo de lectura manual).</li>
+  <li>Al final, pulse <b>Descargar respuestas</b> y envíe el archivo por correo.</li>
+ </ol>
+ <p class="hint" style="margin-top:10px"><b>Importante:</b> trabaje de forma independiente, sin consultar ningún resultado automático. Sus respuestas se usan para medir la concordancia entre anotadores; no hay respuestas «correctas» conocidas de antemano para usted. Tiempo estimado: 45–70 min.</p>
+ <div class="row"><label class="chk">Su nombre o iniciales:&nbsp;<input type="text" id="who" style="width:220px" placeholder="p. ej. J.P.G."></label></div>
+ <div class="row"><label class="chk">Años de experiencia en licitación / obra pública:&nbsp;<input type="text" id="exp" style="width:90px" placeholder="p. ej. 8"></label></div>
+</div>
+
+<div id="app"></div>
+
+<h2>Carga de trabajo percibida / Perceived workload</h2>
+<div class="card">
+ <p class="hint">Valore la tarea manual que acaba de realizar (1 = muy bajo, 7 = muy alto).</p>
+ <div id="tlx"></div>
+ <div style="margin-top:12px">
+  <div class="lab">Comentarios (opcional)</div>
+  <input type="text" id="notes" placeholder="Cualquier observación sobre la dificultad o los documentos">
+ </div>
+</div>
+
+</div>
+
+<div class="bar">
+ <div class="prog"><i id="pbar"></i></div>
+ <span id="pnum" class="hint" style="margin:0"></span>
+ <button class="ghost" onclick="copyOut()">Copiar al portapapeles</button>
+ <button onclick="download()">Descargar respuestas</button>
+</div>
+
+<script>
+const DATA = {"docs":[{"id":"A","file":"PCAP DEFINITIVO.pdf","label":"Documento A — PCAP DEFINITIVO.pdf"},{"id":"B","file":"Pliego de Cláusula Administrativa.PDF","label":"Documento B — Pliego de Cláusula Administrativa.PDF"},{"id":"C","file":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","label":"Documento C — PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf"},{"id":"D","file":"9 f PCAP.pdf","label":"Documento D — 9 f PCAP.pdf"}],"items":[{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"organo_contratacion","label":"Órgano de contratación","hint":"Nombre del órgano/entidad que licita."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"tipo_contrato","label":"Tipo de contrato","hint":"p. ej. «Obras», «Servicios», «Suministros»."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"procedimiento","label":"Procedimiento de adjudicación","hint":"p. ej. «Abierto», «Abierto simplificado», «Negociado»."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"plazo_ejecucion","label":"Plazo de ejecución","hint":"Duración de la ejecución (p. ej. «6 SEMANAS», «12 meses»)."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"valor_estimado_contrato","label":"Valor estimado del contrato","hint":"Valor estimado (art. 101 LCSP), en euros."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"presupuesto_base_con_iva","label":"Presupuesto base de licitación CON IVA","hint":"Importe en euros, IVA incluido."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"iva","label":"IVA (tipo aplicable)","hint":"Tipo de IVA aplicable (p. ej. «21%»)."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"numero_expediente","label":"Número de expediente","hint":"Código del expediente de contratación."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"presupuesto_base_sin_iva","label":"Presupuesto base de licitación SIN IVA","hint":"Importe en euros, sin IVA."},{"doc":"A","docFile":"PCAP DEFINITIVO.pdf","field":"garantia_definitiva","label":"Garantía definitiva","hint":"Normalmente un porcentaje (p. ej. «5%»)."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"tipo_contrato","label":"Tipo de contrato","hint":"p. ej. «Obras», «Servicios», «Suministros»."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"procedimiento","label":"Procedimiento de adjudicación","hint":"p. ej. «Abierto», «Abierto simplificado», «Negociado»."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"tramitacion","label":"Tipo de tramitación","hint":"p. ej. «Ordinaria», «Urgente»."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"valor_estimado_contrato","label":"Valor estimado del contrato","hint":"Valor estimado (art. 101 LCSP), en euros."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"presupuesto_base_con_iva","label":"Presupuesto base de licitación CON IVA","hint":"Importe en euros, IVA incluido."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"iva","label":"IVA (tipo aplicable)","hint":"Tipo de IVA aplicable (p. ej. «21%»)."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"garantia_definitiva","label":"Garantía definitiva","hint":"Normalmente un porcentaje (p. ej. «5%»)."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"plazo_garantia","label":"Plazo de garantía","hint":"Periodo de garantía de la obra (p. ej. «24 MESES»)."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"numero_expediente","label":"Número de expediente","hint":"Código del expediente de contratación."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"plazo_ejecucion","label":"Plazo de ejecución","hint":"Duración de la ejecución (p. ej. «6 SEMANAS», «12 meses»)."},{"doc":"B","docFile":"Pliego de Cláusula Administrativa.PDF","field":"clasificacion_empresarial","label":"Clasificación empresarial requerida","hint":"Grupo/Subgrupo/Categoría exigidos, si aplica."},{"doc":"C","docFile":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","field":"tipo_contrato","label":"Tipo de contrato","hint":"p. ej. «Obras», «Servicios», «Suministros»."},{"doc":"C","docFile":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","field":"procedimiento","label":"Procedimiento de adjudicación","hint":"p. ej. «Abierto», «Abierto simplificado», «Negociado»."},{"doc":"C","docFile":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","field":"garantia_definitiva","label":"Garantía definitiva","hint":"Normalmente un porcentaje (p. ej. «5%»)."},{"doc":"C","docFile":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","field":"numero_expediente","label":"Número de expediente","hint":"Código del expediente de contratación."},{"doc":"C","docFile":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","field":"presupuesto_base_con_iva","label":"Presupuesto base de licitación CON IVA","hint":"Importe en euros, IVA incluido."},{"doc":"C","docFile":"PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf","field":"plazo_garantia","label":"Plazo de garantía","hint":"Periodo de garantía de la obra (p. ej. «24 MESES»)."},{"doc":"D","docFile":"9 f PCAP.pdf","field":"tipo_contrato","label":"Tipo de contrato","hint":"p. ej. «Obras», «Servicios», «Suministros»."},{"doc":"D","docFile":"9 f PCAP.pdf","field":"procedimiento","label":"Procedimiento de adjudicación","hint":"p. ej. «Abierto», «Abierto simplificado», «Negociado»."},{"doc":"D","docFile":"9 f PCAP.pdf","field":"numero_expediente","label":"Número de expediente","hint":"Código del expediente de contratación."},{"doc":"D","docFile":"9 f PCAP.pdf","field":"presupuesto_base_con_iva","label":"Presupuesto base de licitación CON IVA","hint":"Importe en euros, IVA incluido."},{"doc":"D","docFile":"9 f PCAP.pdf","field":"plazo_ejecucion","label":"Plazo de ejecución","hint":"Duración de la ejecución (p. ej. «6 SEMANAS», «12 meses»)."}]};
+const TLX = [['mental','Exigencia mental'],['temporal','Presión de tiempo'],['esfuerzo','Esfuerzo'],['frustracion','Frustración']];
+const KEY='annot-study-v1';
+let S = JSON.parse(localStorage.getItem(KEY)||'{}');
+S.answers=S.answers||{}; S.times=S.times||{}; S.tlx=S.tlx||{};
+const save=()=>localStorage.setItem(KEY,JSON.stringify(S));
+
+function fmt(ms){const s=Math.floor(ms/1000);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}
+
+function render(){
+ const app=document.getElementById('app'); app.innerHTML='';
+ for(const d of DATA.docs){
+  const h=document.createElement('h2'); h.textContent=d.label; app.appendChild(h);
+  const t=S.times[d.id]||{};
+  const card=document.createElement('div'); card.className='card';
+  card.innerHTML='<div class="row"><span class="timer" id="tm-'+d.id+'">'+(t.elapsed?fmt(t.elapsed):'00:00')+'</span>'+
+    '<button class="ghost" id="st-'+d.id+'">'+(t.start&&!t.elapsed?'⏸ Terminar este documento':'▶ Empezar')+'</button>'+
+    '<span class="hint" style="margin:0">Abra <code>'+d.file+'</code></span></div>';
+  app.appendChild(card);
+  card.querySelector('#st-'+d.id).onclick=()=>{
+    const cur=S.times[d.id]||{};
+    if(cur.start&&!cur.elapsed){cur.elapsed=Date.now()-cur.start;}
+    else {S.times[d.id]={start:Date.now()};}
+    save();render();
+  };
+  for(const it of DATA.items.filter(x=>x.doc===d.id)){
+   const k=it.doc+'::'+it.field; const a=S.answers[k]||{};
+   const el=document.createElement('div'); el.className='item'+(a.value||a.absent?' done':'');
+   el.innerHTML='<div class="lab">'+it.label+'</div><div class="hint">'+it.hint+'</div>'+
+     '<input type="text" placeholder="Valor tal como aparece en el documento" value="'+(a.value||'').replace(/"/g,'&quot;')+'" '+(a.absent?'disabled':'')+'>'+
+     '<div class="row"><label class="chk"><input type="checkbox" '+(a.absent?'checked':'')+'> No aparece en este documento</label>'+
+     '<label class="chk"><input type="checkbox" class="amb" '+(a.ambiguous?'checked':'')+'> Ambiguo / varias lecturas posibles</label></div>';
+   const [txt,chk,amb]=[el.querySelector('input[type=text]'),el.querySelectorAll('input[type=checkbox]')[0],el.querySelectorAll('input[type=checkbox]')[1]];
+   txt.oninput=()=>{S.answers[k]={...S.answers[k],value:txt.value};save();prog();};
+   chk.onchange=()=>{S.answers[k]={...S.answers[k],absent:chk.checked};save();render();};
+   amb.onchange=()=>{S.answers[k]={...S.answers[k],ambiguous:amb.checked};save();};
+   app.appendChild(el);
+  }
+ }
+ const tl=document.getElementById('tlx'); tl.innerHTML='';
+ for(const [id,lab] of TLX){
+  const d=document.createElement('div'); d.style.marginBottom='9px';
+  let h='<div class="lab" style="font-size:.9rem">'+lab+'</div><div class="lik">';
+  for(let i=1;i<=7;i++) h+='<label><input type="radio" name="'+id+'" value="'+i+'" '+(String(S.tlx[id])===String(i)?'checked':'')+'><span>'+i+'</span></label>';
+  d.innerHTML=h+'</div>'; tl.appendChild(d);
+  d.querySelectorAll('input').forEach(r=>r.onchange=()=>{S.tlx[id]=r.value;save();});
+ }
+ const n=document.getElementById('notes'); n.value=S.notes||''; n.oninput=()=>{S.notes=n.value;save();};
+ document.getElementById('who').value=S.who||''; document.getElementById('who').oninput=e=>{S.who=e.target.value;save();};
+ document.getElementById('exp').value=S.exp||''; document.getElementById('exp').oninput=e=>{S.exp=e.target.value;save();};
+ prog();
+}
+function prog(){
+ const tot=DATA.items.length;
+ const done=DATA.items.filter(it=>{const a=S.answers[it.doc+'::'+it.field]||{};return (a.value&&a.value.trim())||a.absent;}).length;
+ document.getElementById('pbar').style.width=Math.round(100*done/tot)+'%';
+ document.getElementById('pnum').textContent=done+' / '+tot+' campos';
+}
+function payload(){return JSON.stringify({kit:'annotation+timing',version:1,who:S.who||'',experience:S.exp||'',answers:S.answers,times:S.times,workload:S.tlx,notes:S.notes||'',submitted:new Date().toISOString()},null,2);}
+function download(){
+ const b=new Blob([payload()],{type:'application/json'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(b);
+ a.download='anotacion_'+((S.who||'anon').replace(/[^\w]/g,''))+'.json';a.click();
+ alert('Archivo descargado. Por favor, envíelo por correo a milad.komary@upc.edu — ¡muchas gracias!');
+}
+function copyOut(){navigator.clipboard.writeText(payload()).then(()=>alert('Copiado. Péguelo en un correo a milad.komary@upc.edu'));}
+render();
+// Live tick so a running timer visibly advances while the reader is in the PDF.
+setInterval(()=>{
+ for(const d of DATA.docs){
+  const t=S.times[d.id]; const el=document.getElementById('tm-'+d.id);
+  if(el&&t&&t.start&&!t.elapsed) el.textContent=fmt(Date.now()-t.start);
+ }
+},1000);
+window.addEventListener('beforeunload',save);
+</script>
+</body></html>

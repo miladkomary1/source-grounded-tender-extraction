@@ -1,0 +1,30 @@
+[
+  {
+    "doc": "9 f PCAP.pdf",
+    "ok": true,
+    "chars": 731764,
+    "tables": 113,
+    "seconds": 617.1
+  },
+  {
+    "doc": "PCAP DEFINITIVO.pdf",
+    "ok": true,
+    "chars": 85062,
+    "tables": 2,
+    "seconds": 253.9
+  },
+  {
+    "doc": "PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf",
+    "ok": true,
+    "chars": 447808,
+    "tables": 16,
+    "seconds": 673.5
+  },
+  {
+    "doc": "Pliego de Cl\u00e1usula Administrativa.PDF",
+    "ok": true,
+    "chars": 513773,
+    "tables": 18,
+    "seconds": 185.0
+  }
+]

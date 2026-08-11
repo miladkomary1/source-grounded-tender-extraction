@@ -1,0 +1,17 @@
+{
+  "name": "source-grounded-tender-extraction",
+  "version": "1.0.0",
+  "description": "Evaluation harness and reference implementation for source-grounded hybrid extraction from construction tender documents",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "analysis:consolidate": "node analysis/consolidate-campaigns.mjs",
+    "analysis:precision": "node analysis/precision.mjs",
+    "analysis:cost": "node analysis/cost.mjs",
+    "analysis:crossmodel": "node analysis/cross-model.mjs",
+    "analysis:docling": "node analysis/docling-compare.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.0.0"
+  }
+}
