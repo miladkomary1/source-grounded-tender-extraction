@@ -1,0 +1,76 @@
+﻿node : (node:1524) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of 
+file:///C:/Users/milad.komary/Documents/projects/PCAP/lib/pipeline/blocks/ficha-normalize.ts is not specified and it 
+doesn't parse as CommonJS.
+At line:8 char:1
++ node paper/_baseline.mjs > "paper\_run_corpus26_pass4.log" 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:1524) [MO...se as CommonJS.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\milad.komary\Documents\projects\PCAP\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Warning: Required "glyf" table is not found -- trying to recover.
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 21
+Warning: Indexing all PDF objects
+Warning: TT: undefined function: 21
+Warning: TT: undefined function: 21
+Warning: TT: invalid function id: 136
+Warning: TT: undefined function: 21
+Warning: TT: invalid function id: 136
+sampling configuration: {"temperature":0,"topP":1,"maxOutputTokens":8192,"thinkingConfig":{"thinkingBudget":0}}
+run 1: workflow STRICT acc 0/0 cov 315/572 | workflow ROBUST acc 0/0 cov 320/572 | AI alone 0/0
+
+==== MODEL=gemini-2.5-flash | AGGREGATE over 1 complete runs (n=26 docs, 572 field-slots, 0 golden); intervals are 95% t-CI ====
+Deterministic only         : coverage 96/572 (17%)  accuracy 0/0 (0%)  ungrounded 0%  [reproducible]
+LLM, used as returned      : usable 0/572 (0%)  accuracy 0/0
+AI engine alone (no det)   : coverage 391.0 ± 0.0 (SD 0.0, range 391–391) /572   accuracy 0.0 ± 0.0 (SD 0.0, range 0–0) /0   ungrounded% 26.0 ± 0.0 (SD 0.0, range 26–26)
+Hybrid, UNGATED (det+AI)   : coverage 410.0 ± 0.0 (SD 0.0, range 410–410) /572   accuracy 0.0 ± 0.0 (SD 0.0, range 0–0) /0   ungrounded% 23.0 ± 0.0 (SD 0.0, range 23–23)
+AI + gate, NO rules        : coverage 291.0 ± 0.0 (SD 0.0, range 291–291) /572   accuracy 0.0 ± 0.0 (SD 0.0, range 0–0) /0   surfaced ungrounded 0%
+Full workflow, GATED       : coverage 315.0 ± 0.0 (SD 0.0, range 315–315) /572   accuracy 0.0 ± 0.0 (SD 0.0, range 0–0) /0   surfaced ungrounded 0%
+Full workflow, ROBUST gate : coverage 320.0 ± 0.0 (SD 0.0, range 320–320) /572   accuracy 0.0 ± 0.0 (SD 0.0, range 0–0) /0   (numbers still strict-verbatim)
+>>> GROUNDING SENSITIVITY (strict 18-char prefix vs robust token-based): accuracy 0.0 -> 0.0 /0  |  coverage 315.0 -> 320.0 /572
+
+PER-FIELD success across 1 runs (-> paper/_perfield.tsv):
+doc::field	gold	det/1	AIalone/1	workflow/1
+
+>>> GATE EFFECT (Hybrid UNGATED vs Full workflow GATED, same det floor, differ only by the gate):
+    accuracy 0.0 -> 0.0 /0   |   ungrounded 23% -> 0%
+
+PER-DOC mean coverage (det/AI/gated):
+  pcap_01.pdf              4 / 7.0 / 7.0
+  pcap_02.pdf              5 / 15.0 / 11.0
+  pcap_03.pdf              5 / 15.0 / 12.0
+  pcap_04.pdf              2 / 13.0 / 12.0
+  pcap_05.pdf              5 / 22.0 / 18.0
+  pcap_06.pdf              5 / 17.0 / 15.0
+  pcap_07.pdf              6 / 10.0 / 11.0
+  pcap_08.pdf              5 / 17.0 / 14.0
+  pcap_10.pdf              3 / 6.0 / 7.0
+  pcap_11.pdf              2 / 21.0 / 17.0
+  pcap_12.pdf              5 / 18.0 / 16.0
+  pcap_13.pdf              5 / 20.0 / 14.0
+  pcap_14.pdf              3 / 6.0 / 7.0
+  pcap_15.pdf              3 / 22.0 / 17.0
+  pcap_16.pdf              5 / 12.0 / 10.0
+  pcap_17.pdf              4 / 20.0 / 19.0
+  pcap_18.pdf              4 / 20.0 / 19.0
+  pcap_20.pdf              1 / 13.0 / 10.0
+  pcap_21.pdf              5 / 4.0 / 6.0
+  pcap_23.pdf              5 / 15.0 / 9.0
+  pcap_24.pdf              0 / 18.0 / 7.0
+  pcap_25.pdf              5 / 18.0 / 16.0
+  pcap_26.pdf              3 / 12.0 / 8.0
+  pcap_27.pdf              0 / 20.0 / 2.0
+  pcap_29.pdf              4 / 10.0 / 13.0
+  pcap_30.pdf              2 / 20.0 / 18.0

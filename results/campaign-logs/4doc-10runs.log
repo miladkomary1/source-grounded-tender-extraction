@@ -1,0 +1,69 @@
+﻿node : (node:21916) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of 
+file:///C:/Users/milad.komary/Documents/projects/PCAP/lib/pipeline/blocks/ficha-normalize.ts is not specified and it 
+doesn't parse as CommonJS.
+At line:8 char:1
++ node paper/_baseline.mjs > "paper\_run_4doc_fixed_10runs.log" 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:21916) [M...se as CommonJS.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\milad.komary\Documents\projects\PCAP\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+sampling configuration: {"temperature":0,"topP":1,"maxOutputTokens":8192,"thinkingConfig":{"thinkingBudget":0}}
+run 1: workflow STRICT acc 16/20 cov 45/88 | workflow ROBUST acc 18/20 cov 43/88 | AI alone 15/20
+run 2: workflow STRICT acc 16/20 cov 45/88 | workflow ROBUST acc 18/20 cov 43/88 | AI alone 15/20
+run 3: workflow STRICT acc 16/20 cov 51/88 | workflow ROBUST acc 18/20 cov 47/88 | AI alone 16/20
+run 4: workflow STRICT acc 16/20 cov 51/88 | workflow ROBUST acc 18/20 cov 47/88 | AI alone 16/20
+run 5: workflow STRICT acc 16/20 cov 45/88 | workflow ROBUST acc 18/20 cov 43/88 | AI alone 15/20
+run 6: workflow STRICT acc 16/20 cov 45/88 | workflow ROBUST acc 18/20 cov 43/88 | AI alone 15/20
+run 7: workflow STRICT acc 16/20 cov 51/88 | workflow ROBUST acc 18/20 cov 47/88 | AI alone 16/20
+run 8: workflow STRICT acc 16/20 cov 45/88 | workflow ROBUST acc 18/20 cov 43/88 | AI alone 15/20
+run 9: workflow STRICT acc 16/20 cov 51/88 | workflow ROBUST acc 18/20 cov 47/88 | AI alone 16/20
+run 10: workflow STRICT acc 16/20 cov 51/88 | workflow ROBUST acc 18/20 cov 47/88 | AI alone 16/20
+
+==== MODEL=gemini-2.5-flash | AGGREGATE over 10 complete runs (n=4 docs, 88 field-slots, 20 golden); intervals are 95% t-CI ====
+Deterministic only         : coverage 13/88 (15%)  accuracy 13/20 (65%)  ungrounded 0%  [reproducible]
+LLM, used as returned      : usable 0/88 (0%)  accuracy 0/20
+AI engine alone (no det)   : coverage 57.0 ± 1.7 (SD 2.4, range 54–60) /88   accuracy 15.5 ± 0.4 (SD 0.5, range 15–16) /20   ungrounded% 18.5 ± 2.4 (SD 3.4, range 15–22)
+Hybrid, UNGATED (det+AI)   : coverage 58.5 ± 1.3 (SD 1.8, range 56–61) /88   accuracy 18.0 ± 0.0 (SD 0.0, range 18–18) /20   ungrounded% 18.0 ± 2.1 (SD 3.0, range 15–21)
+AI + gate, NO rules        : coverage 46.5 ± 2.6 (SD 3.7, range 43–50) /88   accuracy 13.5 ± 0.4 (SD 0.5, range 13–14) /20   surfaced ungrounded 0%
+Full workflow, GATED       : coverage 48.0 ± 2.3 (SD 3.2, range 45–51) /88   accuracy 16.0 ± 0.0 (SD 0.0, range 16–16) /20   surfaced ungrounded 0%
+Full workflow, ROBUST gate : coverage 45.0 ± 1.5 (SD 2.1, range 43–47) /88   accuracy 18.0 ± 0.0 (SD 0.0, range 18–18) /20   (numbers still strict-verbatim)
+>>> GROUNDING SENSITIVITY (strict 18-char prefix vs robust token-based): accuracy 16.0 -> 18.0 /20  |  coverage 48.0 -> 45.0 /88
+
+PER-FIELD success across 10 runs (-> paper/_perfield.tsv):
+doc::field	gold	det/10	AIalone/10	workflow/10
+9 f PCAP.pdf::tipo_contrato	obras	0	10	0
+9 f PCAP.pdf::procedimiento	Abierto	10	5	10
+PCAP DEFINITIVO.::organo_contratacion	Servicio Murciano de S	0	0	0
+PCAP DEFINITIVO.::tipo_contrato	Obras	0	10	0
+PCAP DEFINITIVO.::procedimiento	Abierto	10	10	10
+PCAP DEFINITIVO.::plazo_ejecucion	6 SEMANAS	10	10	10
+PCAP DEFINITIVO.::valor_estimado_contrato	53.169,72	10	10	10
+PCAP DEFINITIVO.::presupuesto_base_con_iva	64.335,36	10	10	10
+PCAP DEFINITIVO.::iva	21%	0	10	10
+PCAP-Next-genera::tipo_contrato	Obras	10	10	10
+PCAP-Next-genera::procedimiento	Abierto	10	10	10
+PCAP-Next-genera::garantia_definitiva	5%	10	0	10
+Pliego de Cláusu::tipo_contrato	Obras	0	10	10
+Pliego de Cláusu::procedimiento	Abierto	10	10	10
+Pliego de Cláusu::tramitacion	Ordinaria	10	10	10
+Pliego de Cláusu::valor_estimado_contrato	163.090.932,28	10	10	10
+Pliego de Cláusu::presupuesto_base_con_iva	135.909.110,23	10	0	10
+Pliego de Cláusu::iva	21%	0	10	10
+Pliego de Cláusu::garantia_definitiva	5%	0	0	0
+Pliego de Cláusu::plazo_garantia	24 MESES	10	10	10
+
+>>> GATE EFFECT (Hybrid UNGATED vs Full workflow GATED, same det floor, differ only by the gate):
+    accuracy 18.0 -> 16.0 /20   |   ungrounded 18% -> 0%
+
+PER-DOC mean coverage (det/AI/gated):
+  9 f PCAP.pdf             1 / 12.5 / 9.0
+  PCAP DEFINITIVO.pdf      4 / 20.5 / 18.0
+  PCAP-Next-generation-O   3 / 3.0 / 4.0
+  Pliego de Cláusula Adm   5 / 21.0 / 17.0

@@ -1,0 +1,22 @@
+=== 26-DOCUMENT REPLICATION, POOLED OVER INDEPENDENT PASSES ===
+passes used: 3 (pass 1, pass 2, pass 3); pinned sampling, after the text-layer repair
+
+configuration                       coverage /572     unverifiable share   raw
+Language-model engine alone        393.0 ± 5.0       26.0 ± 0.0 %         [393, 395, 391]
+Hybrid, ungated                    412.0 ± 5.0       23.7 ± 1.4 %         [412, 414, 410]
+Model + gate, no rules             290.3 ± 2.9       0 %                  [289, 291, 291]
+Full workflow (strict gate)        314.3 ± 2.9       0 %                  [313, 315, 315]
+Full workflow (relaxed gate)       318.0 ± 4.3       0 %                  [317, 317, 320]
+Deterministic engine only          96 (17 %)         0 %                  reproducible
+
+CELL VALUES FOR TABLE 10
+  language-model alone, coverage      : 393.0 ± 5.0
+  language-model alone, unverifiable  : 26.0 ± 0.0 %
+  ungated hybrid, coverage            : 412.0 ± 5.0
+  ungated hybrid, unverifiable        : 23.7 ± 1.4 %
+  full workflow strict, coverage      : 314.3 ± 2.9
+  full workflow relaxed, coverage     : 318.0 ± 4.3
+
+On this corpus the relaxed gate is the BROADER of the two
+(318.0 against 314.3), which is the reverse of the labelled corpus,
+where the strict gate populates more slots. Both leave nothing unverifiable.

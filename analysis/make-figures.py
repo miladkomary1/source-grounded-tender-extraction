@@ -44,9 +44,11 @@ CONFIGS = [
 ]
 
 # 26-document corpus, gated coverage of 572 slots and ungated ungrounded share
+# Pooled over three independent passes at the pinned configuration, against the
+# figures published before the repair.
 PARSER_EFFECT = {
-    "Gated coverage\n(of 572 field slots)": (294.7, None),   # before, after
-    "Untraceable share of the\nungated hybrid (%)": (29.7, None),
+    "Gated coverage\n(of 572 field slots)": (294.7, 314.3),        # before, after
+    "Unverifiable share of the\nungated hybrid (%)": (29.7, 23.7),
 }
 
 

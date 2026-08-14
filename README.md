@@ -62,6 +62,28 @@ Read these together with the following, all of which are stated in the paper:
   to values confirmable verbatim and without ambiguity. Both choices plausibly favour the method. Independent
   re-annotation is the principal outstanding validation; the instrument for it is in `human-study/`.
 
+### Label-free replication on 26 further tenders
+
+Pooled over three independent passes at the pinned configuration, after the text-layer repair.
+Accuracy is not reported here: these documents carry no labels.
+
+| Configuration | Coverage (of 572) | Unverifiable share |
+|---|---|---|
+| Deterministic engine only | 96 (17 %) | 0 % |
+| Language-model engine alone | 393.0 ± 5.0 | 26.0 ± 0.0 % |
+| Hybrid, ungated | 412.0 ± 5.0 | 23.7 ± 1.4 % |
+| Full workflow, strict gate | 314.3 ± 2.9 | 0 % |
+| **Full workflow, relaxed gate** | **318.0 ± 4.3** | **0 %** |
+
+On this corpus the relaxed gate is the *broader* of the two, which is the reverse of the labelled
+corpus where the strict gate populates more slots. Both leave nothing unverifiable. Reproduce with
+`npm run analysis:pool`; the pass logs it reads are in `results/campaign-logs/`.
+
+The text-layer repair moved these figures substantially. Against the values obtained before it,
+gated coverage rose from 294.7 ± 5.2 and the unverifiable share of the ungated hybrid fell from
+29.7 ± 2.9 %, without any change to the model. This is not a controlled ablation, since the repair
+changes the input to every configuration at once.
+
 Results are reproduced by `analysis/`, and the raw outputs they consume are in `data/runs/`.
 
 ---

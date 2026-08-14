@@ -1,6 +1,6 @@
 ﻿{
     "name":  "source-grounded-tender-extraction",
-    "version":  "1.1.0",
+    "version":  "1.2.0",
     "description":  "Evaluation harness and reference implementation for source-grounded hybrid extraction from construction tender documents",
     "license":  "MIT",
     "type":  "module",
@@ -13,7 +13,8 @@
                     "analysis:confusion":  "node analysis/confusion-matrix.mjs",
                     "analysis:registry":  "node analysis/registry-check.mjs",
                     "analysis:wellformed":  "node analysis/wellformed-recompute.mjs",
-                    "figures":  "python analysis/make-figures.py"
+                    "figures":  "python analysis/make-figures.py",
+                    "analysis:pool":  "node analysis/pool-passes.mjs"
                 },
     "dependencies":  {
                          "pdfjs-dist":  "^4.0.0"
