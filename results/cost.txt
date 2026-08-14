@@ -29,7 +29,7 @@ For the fields it covers, the saving against any model baseline is 100 %.
 === RECOMMENDED WORDING (conservative; use in abstract and conclusions) ===
 Measured against the fairer baseline of a single frontier-model call per
 document (of the order of ten euro cents), the workflow at three to six euro
-cents reduces model cost by roughly 40 to 70 percent — a factor of two to three —
+cents reduces model cost by roughly 40 to 70 percent, a factor of two to three,
 rather than the ninety-five percent quoted against our own initial per-chunk
 implementation, which is retained only as context. Per document the workflow
 consumes about 25 thousand input and 2.7 thousand output tokens; these counts are

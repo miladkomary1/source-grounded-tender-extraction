@@ -1,0 +1,53 @@
+=== REGISTRY-REFERENCED EVALUATION AGAINST PLACSP PUBLISHED RECORDS ===
+corpus: 26 tenders, none inspected during development; extracted records for 26
+
+1. PROCEDURE TYPE, scored against the published record
+   extracted for 24 of 26 tenders; agreement 24/24 = 100.0 %
+
+2. BUDGET, not scorable as accuracy, and the reason matters
+   PLACSP publishes three distinct amounts (TaxExclusiveAmount, TotalAmount,
+   EstimatedOverallContractAmount). The harvested manifest collapsed them into a
+   single `budget` field without recording which one each record carried, so the
+   reference is ambiguous per tender. The ratio of our VAT-inclusive figure to the
+   published one confirms the corpus mixes them rather than using one consistently:
+     paired observations 13: 6 near 1.00 (published = total),
+     2 near 1.21 (published = tax-exclusive), 5 neither.
+   Scoring budgets against this field would measure the ambiguity of the reference,
+   not the accuracy of the extraction. It is used below only to LOCATE discrepancies,
+   which is what a silver standard can legitimately do.
+
+3. WELL-FORMEDNESS OF SURFACED MONETARY VALUES, the significant finding
+   7 of 37 monetary values surfaced across the corpus are malformed (18.9 %).
+     deterministic    7 malformed of 37
+
+     pcap_01.pdf    presupuesto_base_con_iva   "48 €"        implausibly short
+     pcap_13.pdf    presupuesto_base_con_iva   "000,00 €"    all zeros
+     pcap_17.pdf    presupuesto_base_con_iva   "77 €"        implausibly short
+     pcap_17.pdf    valor_estimado_contrato    "15 €"        implausibly short
+     pcap_18.pdf    presupuesto_base_con_iva   "25 €"        implausibly short
+     pcap_18.pdf    valor_estimado_contrato    "37 €"        implausibly short
+     pcap_29.pdf    presupuesto_base_con_iva   "00 €"        all zeros
+
+   Every one is a TRUNCATION produced by the deterministic engine: "000,00 EUR" is
+   the tail of "40.000,00 EUR", and "00 EUR" the tail of "82.500,00 EUR". The
+   language-model engine produced none.
+
+   THREE CONSEQUENCES, none of them comfortable.
+   (a) Every one of these passes the source-grounding gate, because a truncation IS
+       a verbatim substring of the document. This is the abstract limitation of the
+       gate, demonstrated concretely: locatability is not correctness, and the
+       failure mode it misses is exactly the one that silently corrupts a budget.
+   (b) The claim that the deterministic engine is the precise component is supported
+       only on the four labelled documents. On twenty-six unlabelled tenders it is
+       the sole source of malformed output. The paper should say so.
+   (c) A one-line well-formedness check would catch all seven at zero cost and
+       without a reference, and it belongs in the arithmetic-validation gate.
+
+WHAT THIS ESTABLISHES
+   Procedure type is verified against an independent published reference on
+   24 tenders with 100 % agreement and no human annotation, which speaks directly to
+   the concern that every accuracy figure rests on labels made by the developer.
+   It does not replace re-annotation of the twenty golden values: the platform does
+   not publish the solvency, classification or guarantee thresholds that motivate
+   the work. Its real value here was diagnostic, it surfaced a defect that four
+   labelled documents could not.

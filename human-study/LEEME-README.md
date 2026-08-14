@@ -1,12 +1,12 @@
-# Estudio de validación — Pliegos de contratación pública
-### Validation study — Spanish public tender documents
+# Estudio de validación, Pliegos de contratación pública
+### Validation study, Spanish public tender documents
 
 Gracias por ayudarnos. Hay **dos tareas independientes**; puede hacer una o las dos.
 *Thank you for helping. There are two independent tasks; you may do either or both.*
 
 ---
 
-## Tarea A — Anotación independiente  (`KIT-A-anotacion-independiente.html`)
+## Tarea A, Anotación independiente  (`KIT-A-anotacion-independiente.html`)
 **~45–60 min.** Abra el archivo en cualquier navegador (doble clic; no necesita instalar nada).
 Se le pedirá localizar 32 datos en 4 pliegos y escribirlos tal como aparecen.
 Pulse **Empezar** antes de leer cada documento y **Terminar** al acabarlo: medimos el tiempo de lectura manual.
@@ -15,7 +15,7 @@ Pulse **Empezar** antes de leer cada documento y **Terminar** al acabarlo: medim
 > documents and type them as they appear. Use the Start/Finish buttons per document so we can
 > record manual reading time.*
 
-## Tarea B — Auditoría de valores extraídos  (`KIT-B-auditoria-valores.html`)
+## Tarea B, Auditoría de valores extraídos  (`KIT-B-auditoria-valores.html`)
 **~40–60 min.** Para cada uno de 60 valores extraídos automáticamente, indique si aparece
 en el documento y si es el valor correcto para ese campo.
 
@@ -35,10 +35,10 @@ en el documento y si es el valor correcto para ese campo.
 
 | Archivo | Expediente | Provincia | Objeto |
 |---|---|---|---|
-| 9 f PCAP.pdf | (labelled corpus) | — | — |
-| PCAP DEFINITIVO.pdf | (labelled corpus) | — | — |
-| PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf | (labelled corpus) | — | — |
-| Pliego de Cláusula Administrativa.PDF | (labelled corpus) | — | — |
+| 9 f PCAP.pdf | (labelled corpus) |, |, |
+| PCAP DEFINITIVO.pdf | (labelled corpus) |, |, |
+| PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf | (labelled corpus) |, |, |
+| Pliego de Cláusula Administrativa.PDF | (labelled corpus) |, |, |
 | pcap_01.pdf | 1196/2026.- BALSAS LAMINACIÓN TMD- DANA | Valencia/València | Las obras propuestas persiguen la captación, desvío y vertid |
 | pcap_02.pdf | 344/2026 | Guadalajara | Instalación de climatización en el CEIP San Roque de Horche |
 | pcap_06.pdf | 2025/406740/006-002/00001 | Andalucía | La ejecución de las obra del proyecto de “Mantenimiento de l |

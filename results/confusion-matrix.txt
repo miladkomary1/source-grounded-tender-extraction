@@ -1,0 +1,53 @@
+=== CONFUSION MATRIX FOR THE VERIFICATION GATE ===
+20 hand-verified fields; gemini-2.5-flash, pinned sampling; identical in all ten runs.
+
+                        value CORRECT     value INCORRECT
+  SURFACED                 TP = 16           FP =  2
+  WITHHELD BY GATE         FN =  2           TN =  0
+
+  Precision   TP/(TP+FP) = 88.9 %   of what it shows you, how much is right
+  Recall      TP/(TP+FN) = 88.9 %   of the correct values it held, how many survive
+  F1                     = 88.9 %
+  Specificity TN/(TN+FP) = 0.0 %   of the WRONG values it held, how many it caught
+
+CONSISTENCY CHECKS (all must pass)
+  PASS  precision reproduces _precision.txt (88.9 %)
+  PASS  TP + FP equals the surfaced count (18)
+  PASS  TP + FN equals ungated accuracy (18)
+  PASS  all four cells sum to the golden set (20)
+  PASS  fields the workflow got wrong equals 20 - accuracy
+  PASS  gate-lost fields (engine right, workflow wrong) equals FN
+
+  All checks pass; the matrix is consistent with the campaign.
+
+WHICH FIELDS
+  FN, held correctly by an engine, removed by the gate (2):
+      9 f PCAP.pdf::tipo_contrato
+      PCAP DEFINITIVO.::tipo_contrato
+  Wrong for every configuration, so surfaced-but-wrong (2):
+      PCAP DEFINITIVO.::organo_contratacion
+      Pliego de Cláusu::garantia_definitiva
+
+  The gate-lost fields are contract-type values: the model returns a short phrase
+  where the document carries only the head word, so the strict 18-character prefix
+  test rejects a value that is right. The relaxed token-based gate recovers exactly
+  these and returns 18/20 with the ungrounded share still at zero.
+
+READING IT HONESTLY
+  Among the labelled fields the gate withheld 2 values: 2 correct and 0 incorrect,
+  while 2 wrong values passed straight through it. On this subset the gate is
+  therefore all cost and no benefit. That is not a flaw in the implementation but a
+  property of what it tests: LOCATABILITY, not correctness. A wrong value copied
+  verbatim from the document passes; a right value paraphrased by the model fails.
+  Because the labels were fixed independently of the gate, this is a non-circular
+  measurement, it is the strongest available answer to Reviewer #1, and it happens
+  to be unfavourable.
+
+  The gate earns its place on the UNLABELLED majority, where the ungated hybrid
+  leaves 15.4 % of surfaced values unlocatable and the gated one leaves none. Those
+  removals cannot be scored here because those fields carry no labels, which is
+  precisely the gap the human audit instrument was built to close.
+
+  It also argues that the strict gate is the wrong operating point: the relaxed
+  variant recovers all 2 withheld-but-correct values at no cost in ungroundedness. The obstacle to
+  adopting it as canonical is that it was tuned in-sample, not that it performs worse.

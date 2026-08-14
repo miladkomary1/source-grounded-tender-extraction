@@ -1,0 +1,50 @@
+=== EFFECT OF THE WELL-FORMEDNESS CHECK ===
+
+26-DOCUMENT REPLICATION CORPUS (single archived harvest)
+  surfaced values, all fields      : 281
+  of which monetary                : 37
+  withheld by the new check        : 7  (18.9 % of monetary, 2.5 % of all surfaced)
+  monetary values retained         : 30
+
+  withheld:
+    pcap_01.pdf    presupuesto_base_con_iva   "48 €"        [deterministic]
+    pcap_13.pdf    presupuesto_base_con_iva   "000,00 €"    [deterministic]
+    pcap_17.pdf    presupuesto_base_con_iva   "77 €"        [deterministic]
+    pcap_17.pdf    valor_estimado_contrato    "15 €"        [deterministic]
+    pcap_18.pdf    presupuesto_base_con_iva   "25 €"        [deterministic]
+    pcap_18.pdf    valor_estimado_contrato    "37 €"        [deterministic]
+    pcap_29.pdf    presupuesto_base_con_iva   "00 €"        [deterministic]
+
+  retained (confirming the check is not over-eager):
+    pcap_01.pdf    valor_estimado_contrato    "102.664,00 €"
+    pcap_02.pdf    valor_estimado_contrato    "262.968,93 €"
+    pcap_03.pdf    valor_estimado_contrato    "262.968,93 €"
+    pcap_04.pdf    valor_estimado_contrato    "23.966,94 €"
+    pcap_05.pdf    presupuesto_base_con_iva   "116.547,29 €"
+    pcap_05.pdf    valor_estimado_contrato    "144.480,11 €"
+    pcap_06.pdf    presupuesto_base_con_iva   "96.795,89 €"
+    pcap_06.pdf    valor_estimado_contrato    "96.795,89 €"
+    pcap_07.pdf    presupuesto_base_con_iva   "120.000,00 €"
+    pcap_07.pdf    valor_estimado_contrato    "240.000,00 €"
+    ... and 20 more, all well-formed.
+
+4-DOCUMENT LABELLED CORPUS
+  monetary values surfaced : 4
+  withheld by the check    : 0
+  -> the headline accuracy figures (16.0/20, precision 88.9 %) are UNCHANGED.
+
+EFFECT ON REPORTED COVERAGE
+  The paper reports coverage on the 26-document corpus as a mean over three runs
+  (294.7 ± 5.2 of 572 slots). The archived harvest is a single run, so the exact
+  corrected mean cannot be derived from it; what is measured here is that the check
+  withholds 7 of 281 surfaced values in that harvest. Applying the same
+  proportion to the reported mean gives approximately 287.4 of 572, a reduction of
+  about 7.3 slots. This is an ESTIMATE, flagged as such: the campaign should be
+  re-run before the corrected figure is printed as a measurement.
+
+  Note the direction of the correction. Coverage falls slightly and no accuracy
+  figure improves, because the withheld values were wrong to begin with. The paper
+  gains a defect that its own audit caught, not a better number.
+
+SELF-TEST: 13/13 cases pass
+  All seven observed truncations are rejected and every well-formed amount is kept.

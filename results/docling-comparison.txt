@@ -1,4 +1,4 @@
-=== MAJOR 7 — EXTERNAL BASELINE: layout-aware parsing (Docling) vs pdfjs ===
+=== MAJOR 7, EXTERNAL BASELINE: layout-aware parsing (Docling) vs pdfjs ===
 Extraction engine held constant; only the PARSER differs.
 
 doc                                  parser   secs    chars   cov/22  acc/gold

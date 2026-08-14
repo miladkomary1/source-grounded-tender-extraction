@@ -1,7 +1,7 @@
 // Methodology-impact experiment: prompt-engineered LLM (take-as-is) vs the full
 // methodology (normalizer + grounding verification + deterministic merge),
 // measured on the corpus. Reports usable coverage, GROUNDEDNESS (anti-
-// hallucination), and accuracy — the numbers that quantify why the methodology
+// hallucination), and accuracy, the numbers that quantify why the methodology
 // beats a prompt-only baseline.
 import { readFileSync, readdirSync, existsSync, appendFileSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
@@ -43,12 +43,26 @@ async function gemini(instr, input) {
     contents: [{ role: 'user', parts: [{ text: input }] }],
     generationConfig: { responseMimeType: 'application/json', ...(PINNED ? PIN_CFG : {}) },
   });
+  let quotaHits = 0;
   for (let a = 0; a < 10; a++) {
     const key = KEYS[_ki % KEYS.length]; _ki++; // rotate keys each attempt
     let r;
-    try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key }, body }); }
+    // A fetch with no timeout can block forever: an earlier campaign sat for 26
+    // minutes on a request that never returned, burning wall-clock and no CPU.
+    try { r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key }, body, signal: AbortSignal.timeout(120000) }); }
     catch { await sleep(2000 * (a + 1)); continue; }
-    if (r.status === 503 || r.status === 429 || r.status >= 500) { await sleep(2000 * (a + 1)); continue; }
+    // Quota exhaustion is not a transient fault. Retrying it multiplies the
+    // damage: ten attempts per document over twenty-six documents is 260 requests
+    // spent discovering the same thing. If every key reports 429 in one full
+    // rotation, the allowance is gone; abort the campaign instead of hammering.
+    if (r.status === 429) {
+      quotaHits++;
+      if (quotaHits >= KEYS.length) {
+        throw new Error(`QUOTA_EXHAUSTED: all ${KEYS.length} keys returned HTTP 429. Campaign aborted rather than retried; free-tier allowances reset daily.`);
+      }
+      await sleep(1500); continue;
+    }
+    if (r.status === 503 || r.status >= 500) { await sleep(2000 * (a + 1)); continue; }
     const tx = await r.text();
     if (r.ok) { try { return JSON.parse(JSON.parse(tx).candidates?.[0]?.content?.parts?.map((p) => p.text).join('') ?? '{}'); } catch { return null; } }
     await sleep(400); continue; // any client error (expired/blocked key): rotate to the other key
@@ -66,7 +80,7 @@ function grounded(value, nsrc) {
   return nsrc.includes(v.slice(0, Math.min(18, v.length)));
 }
 
-// Robust locatability: numbers stay STRICT (verbatim in source — preserves the
+// Robust locatability: numbers stay STRICT (verbatim in source, preserves the
 // anti-hallucination guarantee on monetary/date fields), but a text value counts
 // as grounded when every content token (>=4 chars) appears in the source, instead
 // of a brittle 18-char prefix slice. This recovers correct categorical values the
@@ -189,7 +203,7 @@ let pfOut = `doc::field\tgold\tdet/${NR}\tAIalone/${NR}\tworkflow/${NR}\n`;
 for (const [key, v] of Object.entries(perField)) pfOut += `${key}\t${String(v.gold).slice(0, 22)}\t${v.det}\t${v.ai}\t${v.wf}\n`;
 writeFileSync('paper/_perfield.tsv', pfOut);
 console.log('\nPER-FIELD success across ' + NR + ' runs (-> paper/_perfield.tsv):\n' + pfOut);
-console.log(`>>> GATE EFFECT (Hybrid UNGATED vs Full workflow GATED — same det floor, differ only by the gate):`);
+console.log(`>>> GATE EFFECT (Hybrid UNGATED vs Full workflow GATED, same det floor, differ only by the gate):`);
 console.log(`    accuracy ${mean(col('hybAcc')).toFixed(1)} -> ${mean(col('gatedAcc')).toFixed(1)} /${labelN}   |   ungrounded ${mean(runStats.map((s) => pct(s.hybUngr, s.hybFill))).toFixed(0)}% -> 0%`);
 // per-doc means
 const pdKeys = docs.map((d) => d.f.slice(0, 22).trim());

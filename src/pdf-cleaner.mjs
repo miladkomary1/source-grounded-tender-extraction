@@ -20,7 +20,7 @@ export const INLINE_STRIP_PATTERNS = [
   // is non-greedy and bounded so it cannot accidentally swallow real clause
   // text that follows the timestamp.
   /Firmado por:\s*[^\n]*?Fecha:\s*\d{1,2}[-/]\d{1,2}[-/]\d{2,4}\s+\d{1,2}:\d{2}(?::\d{2})?(?:\s*Jefe de servicio\s+(?:contrataci[oó]n|gesti[oó]n)[^\n]{0,80}?(?=\s|$|Firmado))?/gi,
-  // "Cargo: TITLE Fecha: dd-mm-yyyy hh:mm:ss" — covers the case where the
+  // "Cargo: TITLE Fecha: dd-mm-yyyy hh:mm:ss", covers the case where the
   // PDF's stamp omits the "Firmado por: NAME" prefix or the name is on a
   // separate text run that pdfjs split off.
   /Cargo:\s*[^\n]*?Fecha:\s*\d{1,2}[-/]\d{1,2}[-/]\d{2,4}\s+\d{1,2}:\d{2}(?::\d{2})?/gi,
@@ -72,7 +72,38 @@ export const BOILERPLATE_LINE_PATTERNS = [
   /^P[aá]gina:\s*\d+\s*de\s*\d+/i,
 ];
 
+// Close up spaces that fall INSIDE a number in the PDF text layer.
+//
+// Glyph-level positioning makes some PDFs emit "40 .000,00 €" for 40.000,00 €, or
+// "35.000 ,00 €", or "8 0.000,00 €". Any pattern reading that text then finds only
+// the well-formed fragment inside it, "000,00", and surfaces a truncated budget.
+// The fragment is a verbatim substring of the document, so the source-grounding
+// gate cannot reject it; the damage has to be undone here, before extraction.
+//
+// Runs to a fixed point because one pass can leave "3 5 .000,00" half-joined.
+// Deliberately conservative: it only joins digits to an adjacent separator, or a
+// digit to a following three-digit group, which is the shape of a thousands break.
+export function joinSplitNumbers(text) {
+  let previous = null;
+  let out = text;
+  while (previous !== out) {
+    previous = out;
+    out = out
+      // a space touching a separator inside a number is always spurious
+      .replace(/(\d)[ \u00A0\t]+([.,])/g, '$1$2')          // "35.000 ,00" -> "35.000,00"
+      .replace(/([.,])[ \u00A0\t]+(\d)/g, '$1$2')          // "40. 000"    -> "40.000"
+      // a lone digit split from a group that is itself already numeric:
+      // join only when what follows looks like the rest of a number, so
+      // "Anexo 3 000 personas" is left alone but "8 0.000,00" is repaired
+      .replace(new RegExp('(\\d)' + '[ \u00A0\t]+' + '(?=\\d{1,3}[.,]\\d)', 'g'), '$1');
+  }
+  return out;
+}
+
 export function cleanPdfPageText(pageText) {
+  // 0. Repair numbers broken by glyph spacing, before anything reads them.
+  pageText = joinSplitNumbers(pageText);
+
   // 1. Remove inline boilerplate substrings so a single-line page that mixes
   //    clause text with a signer footer doesn't lose the clause text.
   const stripped = stripInlineBoilerplate(pageText);

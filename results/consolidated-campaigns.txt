@@ -1,6 +1,6 @@
-=== MAJOR 3 — CONSOLIDATION OF THE CANONICAL CONFIGURATION ===
+=== MAJOR 3, CONSOLIDATION OF THE CANONICAL CONFIGURATION ===
 
-Full workflow (gated, strict gate) — accuracy of 20 golden values
+Full workflow (gated, strict gate), accuracy of 20 golden values
   C1 (Table 5 campaign, _run_flash_ablation.log)
     n=10  mean 17.00  SD 1.25
   C2 (confirmatory re-run, _run_ablation2.log)
@@ -20,13 +20,13 @@ Full workflow (gated, strict gate) — accuracy of 20 golden values
 --- PAIRED comparison, full workflow vs ungated hybrid (same runs) ---
   C1 (Table 5 campaign, _run_flash_ablation.log): mean difference -1.10
   C2 (confirmatory re-run, _run_ablation2.log): mean difference -1.50
-  C3 (sensitivity campaign, _run_robust.log): per-run ungated not logged — excluded from the paired test
+  C3 (sensitivity campaign, _run_robust.log): per-run ungated not logged, excluded from the paired test
   POOLED paired difference over 20 runs: -1.30 ± 0.27 values
   → the gate costs 1.30 ± 0.27 correct values (95% CI excludes 0: YES, significant)
   This paired estimate is both tighter and more honest than juxtaposing
   the marginal intervals 16.5 vs 18.0, exactly as Reviewer #1 requested.
 
---- Relaxed (token-based) gate — POST-HOC sensitivity, same campaign ---
+--- Relaxed (token-based) gate, POST-HOC sensitivity, same campaign ---
   strict 16.40  →  relaxed 18.00
   paired gain 1.60 ± 0.60 values (in-sample; NOT a headline figure)
 
