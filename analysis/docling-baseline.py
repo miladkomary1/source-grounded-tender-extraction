@@ -1,4 +1,4 @@
-"""MAJOR 7 — external baseline: layout-aware parsing (IBM Docling) vs the
+"""MAJOR 7, external baseline: layout-aware parsing (IBM Docling) vs the
 pdfjs text extraction used throughout the paper.
 
 Reviewer #1 notes that layout-aware parsers "address exactly the table-heavy
@@ -16,7 +16,7 @@ from pathlib import Path
 
 # torch.compile / TorchDynamo needs an MSVC toolchain on Windows ("cl not found").
 # These must be set BEFORE torch is imported (docling imports it transitively),
-# otherwise the setting is ignored — which is why the shell-level export failed.
+# otherwise the setting is ignored, which is why the shell-level export failed.
 os.environ["TORCHDYNAMO_DISABLE"] = "1"
 os.environ["TORCH_COMPILE_DISABLE"] = "1"
 os.environ["PYTORCH_JIT"] = "0"

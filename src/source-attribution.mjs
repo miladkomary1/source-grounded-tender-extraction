@@ -8,7 +8,7 @@
 // real obligation but mislabels the article (e.g. binds an IVA line to
 // "Cláusula 3" when it actually sits in Anexo I apartado 10, or a responsabilidad
 // excerpt to the wrong clause), the pair fails to co-locate and the finding is
-// dropped — a silent recall loss. Re-deriving the clause from the nearest
+// dropped, a silent recall loss. Re-deriving the clause from the nearest
 // preceding heading is correct by construction and, because the heading precedes
 // the excerpt within the look-back window, is guaranteed to pass verification.
 //

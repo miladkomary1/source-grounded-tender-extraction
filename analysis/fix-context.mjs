@@ -2,7 +2,7 @@
 //
 // The first pass mapped a value back to the raw text by searching its first
 // token, which landed on unrelated passages (signature blocks etc.). A
-// misleading snippet is worse than none in a human audit — it can make a
+// misleading snippet is worse than none in a human audit, it can make a
 // correct value look wrong. This builds a normalised copy of the document with
 // an index map back to raw offsets, locates the value in normalised space, and
 // slices the RAW text at the mapped offset. Values that cannot be located
@@ -69,7 +69,7 @@ for (const it of items) {
   const snippet = text.slice(Math.max(0, rawAt - 200), rawAt + 340).replace(/\s+/g, ' ').trim();
   // Self-verify: only keep a snippet that demonstrably contains the value (or,
   // for numerics, the matched number). A snippet that does not is worse than
-  // none — it would bias the auditor against a correct value.
+  // none, it would bias the auditor against a correct value.
   const ns = normStr(snippet);
   const nums = String(it.value).match(/\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+/g) || [];
   const ok = ns.includes(v) || (v.length > 18 && ns.includes(v.slice(0, 18))) || nums.some((n) => ns.includes(normStr(n)));

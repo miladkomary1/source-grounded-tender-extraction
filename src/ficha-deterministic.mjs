@@ -15,7 +15,7 @@
 // Hard contract: every value emitted by these extractors must appear verbatim
 // somewhere in the input text. No paraphrasing, no formatting beyond trim.
 //
-// All values referenced in CLAUDE_CODE_HANDOFF.md §1b plus the explicit
+// All values of the summary card, plus the explicit
 // blocker list in the user's reliability brief are covered here:
 //   tipo_contrato, procedimiento, tramitacion, plazo_ejecucion,
 //   valor_estimado_contrato, presupuesto_base_sin_iva (base imponible),
@@ -32,7 +32,7 @@ const NUM_ES = String.raw`\d{1,3}(?:\.\d{3})*(?:,\d+)?`;
  */
 
 // A value found via the generic cross-template scanner rather than a precise
-// apartado anchor — flagged 'media' confidence and a generic reference so the
+// apartado anchor, flagged 'media' confidence and a generic reference so the
 // UI/merge layer can tell it apart from the high-confidence CCEC extractions.
 function fieldFromGeneric(value, label) {
   return { value: value.replace(/\s+/g, ' ').trim(), clause_reference: label, confidence: 'media', notes: null };
@@ -48,7 +48,7 @@ function fieldFrom(value, clauseReference) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 1 — Procedimiento + Calificación (Tipo de contrato)
+// Apartado 1, Procedimiento + Calificación (Tipo de contrato)
 // ---------------------------------------------------------------------------
 // Real Leganés text:
 //   "1) PROCEDIMIENTO Y CALIFICACIÓN DEL CONTRATO PROCEDIMIENTO: ABIERTO.
@@ -88,7 +88,7 @@ export function extractTipoContrato(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 3 — Tramitación
+// Apartado 3, Tramitación
 // ---------------------------------------------------------------------------
 // Real Leganés text: "3) TRAMITACIÓN : Ordinaria"
 export function extractTramitacion(text) {
@@ -100,7 +100,7 @@ export function extractTramitacion(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 8 — Plazo de ejecución
+// Apartado 8, Plazo de ejecución
 // ---------------------------------------------------------------------------
 // Real Leganés text: "8) PLAZO DE EJECUCIÓN Plazo: 18 MESES Contados a..."
 const DURATION = String.raw`\d+\s*(?:MESES|MES|SEMANAS|SEMANA|D[IÍ]AS|D[IÍ]A|A[ÑN]OS|A[ÑN]O)`;
@@ -126,14 +126,14 @@ export function extractPlazoEjecucion(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 10 — Valor estimado, base imponible, IVA, total con IVA
+// Apartado 10, Valor estimado, base imponible, IVA, total con IVA
 // ---------------------------------------------------------------------------
 // Real Leganés text:
 //   A) Valor estimado Total valor estimado contrato : 5.532.479,98 €
 //   B) Presupuesto base de licitación: ... Total Base imponible: 5.532.479,98
 //      Importe del 21% de IVA: 1.161.820,80 € TOTAL: 6.694.300,78 €
 //
-// CRITICAL: there are TWO "TOTAL" markers in apartado 10 — one for the GG+BI
+// CRITICAL: there are TWO "TOTAL" markers in apartado 10, one for the GG+BI
 // subtotal ("Total: 883.337,14 €") and one for the IVA-inclusive grand total.
 // We anchor the grand-total extractor on "Importe del 21% de IVA: ... TOTAL:"
 // so we cannot pick up the GG+BI subtotal by mistake (the audit's #76 bug).
@@ -196,7 +196,7 @@ export function extractPresupuestoBaseSinIva(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 20 — Garantía provisional
+// Apartado 20, Garantía provisional
 // ---------------------------------------------------------------------------
 // Real Leganés text: "20) GARANTÍA PROVISIONAL. Procede: NO"
 export function extractGarantiaProvisional(text) {
@@ -208,7 +208,7 @@ export function extractGarantiaProvisional(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 22 — Garantía definitiva
+// Apartado 22, Garantía definitiva
 // ---------------------------------------------------------------------------
 // Real Leganés text: "22) GARANTÍA DEFINITIVA. Procede: SI Importe: 5% del
 //   importe de adjudicación del contrato, IVA excluido. Constitución mediante
@@ -240,7 +240,7 @@ export function extractGarantiaDefinitiva(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 24 — Pólizas de seguros (RC + TR + franquicia)
+// Apartado 24, Pólizas de seguros (RC + TR + franquicia)
 // ---------------------------------------------------------------------------
 // Real Leganés text:
 //   "24) PÓLIZAS DE SEGUROS Procede: SI. Responsabilidad Civil de
@@ -279,7 +279,7 @@ export function extractSeguros(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 31 — Plazo de garantía
+// Apartado 31, Plazo de garantía
 // ---------------------------------------------------------------------------
 // Real Leganés (obras) text: "31) PLAZO DE GARANTÍA: 1 año."
 // Servicios/suministros CCEC use the same heading under a different apartado
@@ -304,7 +304,7 @@ export function extractPlazoGarantia(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 33 — Licitación electrónica / presentación electrónica
+// Apartado 33, Licitación electrónica / presentación electrónica
 // ---------------------------------------------------------------------------
 // Real Leganés text: "33) LICITACIÓN ELECTRÓNICA: SI OBLIGATORIA. ..."
 export function extractPresentacionElectronica(text) {
@@ -314,14 +314,14 @@ export function extractPresentacionElectronica(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 4 — Objeto del contrato
+// Apartado 4, Objeto del contrato
 // ---------------------------------------------------------------------------
 // Real Leganés text: "4) OBJETO DEL CONTRATO OBRAS DEL PROYECTO DE
 //   CONSTRUCCIÓN DEL CENTRO MULTIFUNCIONAL "VEREDA DE ESTUDIANTES"."
 export function extractObjeto(text) {
   const m = text.match(/4\s*\)\s*OBJETO\s+DEL\s+CONTRATO\s+([^\n]{5,300}?)\.\s+\d{1,2}\s*\)/i);
   if (m) return fieldFrom(m[1].replace(/\s+/g, ' ').trim(), 'Anexo I apdo. 4');
-  // Only the CAPS-heading form ("OBJETO DEL CONTRATO <DESCRIPTION>") — the actual
+  // Only the CAPS-heading form ("OBJETO DEL CONTRATO <DESCRIPTION>"), the actual
   // stated object. The description must START with a letter or quote, never a
   // digit, so a table-of-contents line ("OBJETO DEL CONTRATO 9 A. DEFINICIÓN…")
   // cannot leak its page number in. The generic "el objeto del contrato es…"
@@ -332,7 +332,7 @@ export function extractObjeto(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 2 — Órgano de contratación
+// Apartado 2, Órgano de contratación
 // ---------------------------------------------------------------------------
 export function extractOrgano(text) {
   const m = text.match(/2\s*\)\s*[ÓO]RGANO\s+CONTRATANTE\s+([^\n]{3,200}?)(?:\s+Direcci[oó]n\s+postal\s*:|\s+\d{1,2}\s*\))/i);
@@ -341,7 +341,7 @@ export function extractOrgano(text) {
 }
 
 // ---------------------------------------------------------------------------
-// Apartado 14 — Solvencia económica + técnica + clasificación
+// Apartado 14, Solvencia económica + técnica + clasificación
 // ---------------------------------------------------------------------------
 export function extractSolvenciaEconomica(text) {
   // Obras CCEC: "volumen de negocios igual o superior a X euros".
@@ -433,11 +433,11 @@ export function extractDeterministicFichaFields(text) {
 // LLM picks up an unrelated number from the same paragraph (the audit's
 // "Excel still puts bare 21 in many amount fields" complaint).
 
-const NOT_SPECIFIED_RE = /^(?:no\s+especific(?:ado|at)|not\s+specified|no\s+procede|n\/a|n\.a\.|—|-)$/i;
+const NOT_SPECIFIED_RE = /^(?:no\s+especific(?:ado|at)|not\s+specified|no\s+procede|n\/a|n\.a\.|, |-)$/i;
 const VALID_AMOUNT_RE = /(?:€|\beuros?\b|\bMEUR\b|%|por\s+ciento|del?\s+(?:importe|presupuesto|valor|precio|PEM)\b|por\s+siniestro|por\s+a[ñn]o|del\s+\d|\bMESES?\b|\bA[ÑN]OS?\b|\bD[IÍ]AS?\b)/i;
 
 export function isStrictlyValidAmount(value) {
-  if (value == null) return true; // null is fine — represents "not extracted"
+  if (value == null) return true; // null is fine, represents "not extracted"
   const s = String(value).trim();
   if (s === '') return true;
   if (NOT_SPECIFIED_RE.test(s)) return true;

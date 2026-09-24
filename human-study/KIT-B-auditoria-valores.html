@@ -75,7 +75,7 @@ function payload(){return JSON.stringify({kit:'human-audit',version:1,who:S.who|
  submitted:new Date().toISOString()},null,2);}
 function download(){const b=new Blob([payload()],{type:'application/json'});const a=document.createElement('a');
  a.href=URL.createObjectURL(b);a.download='auditoria_'+((S.who||'anon').replace(/[^\w]/g,''))+'.json';a.click();
- alert('Archivo descargado. Envíelo por correo a milad.komary@upc.edu — ¡muchas gracias!');}
+ alert('Archivo descargado. Envíelo por correo a milad.komary@upc.edu, ¡muchas gracias!');}
 function copyOut(){navigator.clipboard.writeText(payload()).then(()=>alert('Copiado. Péguelo en un correo a milad.komary@upc.edu'));}
 render();window.addEventListener('beforeunload',save);
 </script></body></html>

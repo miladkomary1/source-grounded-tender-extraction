@@ -1,4 +1,4 @@
-// Merge-ficha block — field-level routing between the two extraction engines.
+// Merge-ficha block, field-level routing between the two extraction engines.
 //
 // The n=10 per-field evaluation (paper/_perfield.tsv) shows a clean division
 // of labour: the deterministic engine recovers the anchored monetary/duration
@@ -7,7 +7,7 @@
 // categorical fields the anchors misfire on (tipo_contrato: model 10/10,
 // deterministic 0/10 on three of four documents; iva and organo_contratacion
 // show the same shape). A single global precedence loses one side or the
-// other — the previous model-wins merge could ship a wrong model budget over
+// other, the previous model-wins merge could ship a wrong model budget over
 // a correct deterministic one.
 //
 // Routing rule: deterministic wins when it has a value (its CCEC anchors are
@@ -15,7 +15,7 @@
 // fields below, where a present model value wins. Model values are expected to
 // have passed the grounding gate (blocks/ground.ts) before reaching this merge.
 //
-// Pure module — intentionally has NO imports (like ficha-normalize) so it
+// Pure module, intentionally has NO imports (like ficha-normalize) so it
 // loads under both Next and a plain Node test runner (scripts/benchmark.mjs).
 
 type ValueField = { value: string | null };
@@ -74,7 +74,7 @@ export function mergeFichaWithDeterministic<T extends Record<string, unknown>>(
     const model = modelFicha[key];
     const det = deterministicFicha[key];
     if (MODEL_FIRST_FICHA_FIELDS.has(key)) {
-      // Fall through to det only when it actually has a value — an empty model
+      // Fall through to det only when it actually has a value, an empty model
       // field may carry the grounding-gate withheld note, which the UI shows.
       merged[key] = hasValue(model) ? model : hasValue(det) ? det : (model ?? det);
     } else {

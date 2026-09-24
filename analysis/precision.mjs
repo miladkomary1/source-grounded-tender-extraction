@@ -5,7 +5,7 @@
 // labels, by contrast, were fixed independently of the gate. So for the labelled
 // subset we CAN ask a non-circular question:
 //     of the values the gate let through, how many are actually CORRECT?
-// That is precision on the verified subset — which is also exactly the number
+// That is precision on the verified subset, which is also exactly the number
 // Reviewer #1 says is "computable from the reported data" but never reported.
 //
 //   GKEY=... [PINNED=1] node paper/_precision.mjs

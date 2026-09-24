@@ -1,4 +1,4 @@
-// NER client (Stage 6) — calls the optional PACP document service for Spanish
+// NER client (Stage 6), calls the optional PACP document service for Spanish
 // procurement entity recognition (BSC NextProcurement models). Fail-soft:
 // returns null when the service is not configured or unreachable, so the
 // extraction cascade simply skips the `ner` candidate and uses the regex/LLM

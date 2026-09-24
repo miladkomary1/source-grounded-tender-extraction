@@ -1,0 +1,16 @@
+MODEL INTERFACE CHARGE, CANONICAL CONFIGURATION
+campaign C-R2-4DOC, September 2026, model gemini-2.5-flash, one call per document, no call avoided
+prices accessed 16 September 2026: USD 0.30 per 1M input tokens, USD 2.50 per 1M output tokens
+
+arm                 calls  prompt/call  output/call  total/call  USD/document
+control                40       23,029        3,914      26,943        0.0167
+docie_baseline         20       21,602        4,207      25,809        0.0170
+input_fulltext         40       88,502        5,155      93,657        0.0394
+input_passage          40       25,495        4,372      29,867        0.0186
+no_repair              40       23,066        3,545      26,611        0.0158
+schema_flat            20       23,029        1,103      24,132        0.0097
+
+The canonical arm consumes 23,029 prompt and 3,914 output tokens per document, a charge of USD 0.0167 per document.
+This is the model interface charge only. Reading time, deployment and operation
+are not measured. The deterministic path of the deployed prototype consumes no
+tokens, but the harness evaluated here never takes that path.

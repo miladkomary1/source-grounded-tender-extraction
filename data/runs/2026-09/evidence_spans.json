@@ -1,0 +1,150 @@
+{
+  "generated": "2026-09-15T10:04:53.513Z",
+  "window": "gold value, normalised, sought verbatim in the normalised text",
+  "docs": {
+    "9 f PCAP.pdf": {
+      "pages": 105,
+      "source_chars": 414857,
+      "annotated_spans": 2,
+      "rules": {
+        "head_annex": {
+          "input_chars": 120000,
+          "share_of_document": 0.2893,
+          "spans_included": 2,
+          "spans_total": 2,
+          "spans_missing": []
+        },
+        "fulltext": {
+          "input_chars": 414857,
+          "share_of_document": 1,
+          "spans_included": 2,
+          "spans_total": 2,
+          "spans_missing": []
+        },
+        "passage": {
+          "input_chars": 91587,
+          "share_of_document": 0.2208,
+          "spans_included": 2,
+          "spans_total": 2,
+          "spans_missing": []
+        }
+      },
+      "spans_absent_from_cleaned_document": []
+    },
+    "PCAP DEFINITIVO.pdf": {
+      "pages": 26,
+      "source_chars": 78326,
+      "annotated_spans": 7,
+      "rules": {
+        "head_annex": {
+          "input_chars": 78326,
+          "share_of_document": 1,
+          "spans_included": 7,
+          "spans_total": 7,
+          "spans_missing": []
+        },
+        "fulltext": {
+          "input_chars": 78326,
+          "share_of_document": 1,
+          "spans_included": 7,
+          "spans_total": 7,
+          "spans_missing": []
+        },
+        "passage": {
+          "input_chars": 51868,
+          "share_of_document": 0.6622,
+          "spans_included": 7,
+          "spans_total": 7,
+          "spans_missing": []
+        }
+      },
+      "spans_absent_from_cleaned_document": []
+    },
+    "PCAP-Next-generation-OBRAS-PROC.-ABIERTO.pdf": {
+      "pages": 122,
+      "source_chars": 387912,
+      "annotated_spans": 3,
+      "rules": {
+        "head_annex": {
+          "input_chars": 12258,
+          "share_of_document": 0.0316,
+          "spans_included": 2,
+          "spans_total": 3,
+          "spans_missing": [
+            "garantia_definitiva"
+          ]
+        },
+        "fulltext": {
+          "input_chars": 387912,
+          "share_of_document": 1,
+          "spans_included": 3,
+          "spans_total": 3,
+          "spans_missing": []
+        },
+        "passage": {
+          "input_chars": 111646,
+          "share_of_document": 0.2878,
+          "spans_included": 3,
+          "spans_total": 3,
+          "spans_missing": []
+        }
+      },
+      "spans_absent_from_cleaned_document": []
+    },
+    "Pliego de Cláusula Administrativa.PDF": {
+      "pages": 152,
+      "source_chars": 504128,
+      "annotated_spans": 8,
+      "rules": {
+        "head_annex": {
+          "input_chars": 120000,
+          "share_of_document": 0.238,
+          "spans_included": 8,
+          "spans_total": 8,
+          "spans_missing": []
+        },
+        "fulltext": {
+          "input_chars": 504128,
+          "share_of_document": 1,
+          "spans_included": 8,
+          "spans_total": 8,
+          "spans_missing": []
+        },
+        "passage": {
+          "input_chars": 119998,
+          "share_of_document": 0.238,
+          "spans_included": 7,
+          "spans_total": 8,
+          "spans_missing": [
+            "plazo_garantia"
+          ]
+        }
+      },
+      "spans_absent_from_cleaned_document": []
+    }
+  },
+  "totals": {
+    "head_annex": {
+      "input_chars": 330584,
+      "spans_included": 19,
+      "spans_total": 20,
+      "inclusion_rate": 0.95
+    },
+    "fulltext": {
+      "input_chars": 1385223,
+      "spans_included": 20,
+      "spans_total": 20,
+      "inclusion_rate": 1
+    },
+    "passage": {
+      "input_chars": 375099,
+      "spans_included": 19,
+      "spans_total": 20,
+      "inclusion_rate": 0.95
+    }
+  },
+  "caps": {
+    "control_cap": 120000,
+    "fulltext_cap": 900000
+  }
+}

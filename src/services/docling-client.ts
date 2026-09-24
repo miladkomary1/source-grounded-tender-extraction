@@ -1,4 +1,4 @@
-// Docling client (Stage 6) — calls the optional PACP document service for
+// Docling client (Stage 6), calls the optional PACP document service for
 // layout/table-faithful PDF parsing. Fail-soft: returns null whenever the
 // service is not configured, unreachable, or slow, so the pipeline always falls
 // back to its pure-TS pdfjs path. Same contract as the cache adapter.

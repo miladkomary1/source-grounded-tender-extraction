@@ -10,7 +10,7 @@
 // deterministic engine's contract is "never hallucinate". Two safeguards keep it
 // honest:
 //   1. The value must sit within `maxGap` chars of the label via a SHORT
-//      declarative connector — not anywhere in the paragraph.
+//      declarative connector, not anywhere in the paragraph.
 //   2. THRESHOLD_GUARD rejects conditional/threshold/unrelated context
 //      ("sea inferior a 100.000 euros", "igual o superior a 500.000",
 //      "transcurridos 10 años", "responsabilidad por vicios ocultos"), which is

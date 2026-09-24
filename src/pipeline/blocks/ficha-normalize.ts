@@ -9,7 +9,7 @@
 // (observed live on real pliegos). This block coerces the raw AI ficha into the
 // exact schema shape so validation keeps everything it can.
 
-// Pure shaper — intentionally has NO imports so it loads under both Next and a
+// Pure shaper, intentionally has NO imports so it loads under both Next and a
 // plain Node test runner. The route validates the returned object with
 // FichaResultSchema (which it already imports).
 
@@ -73,7 +73,7 @@ function flattenScalars(value: unknown, depth = 0): string | null {
 function coerceField(raw: unknown): FichaFieldOut {
   const empty: FichaFieldOut = { value: null, clause_reference: null, confidence: null, notes: null };
   if (raw == null) return empty;
-  // Model-derived ficha values are medium confidence — not source-anchored like
+  // Model-derived ficha values are medium confidence, not source-anchored like
   // the deterministic CCEC extractors ('alta'). The merge keeps the
   // deterministic field (and its higher confidence) when both are present, so
   // the assembled ficha carries a real confidence gradient.

@@ -1,11 +1,11 @@
 // Cross-model replication + per-value dump (revision R1).
 //
 // Two jobs in one pass, both requested by Reviewer #1:
-//   MAJOR 6 — "test the same schema on at least one other model or provider":
+//   MAJOR 6, "test the same schema on at least one other model or provider":
 //             runs the SAME prompt/normalizer/gate stack on DeepSeek instead of
 //             Gemini, and additionally tests the DECOMPOSED record-only schema
 //             that the Gemini endpoint accepted but was never evaluated.
-//   MAJOR 1 — dumps every value the full workflow SURFACES, with the engine that
+//   MAJOR 1, dumps every value the full workflow SURFACES, with the engine that
 //             produced it, so a human auditor can check whether "passes the
 //             locatability gate" really means "present and correctly interpreted".
 //
@@ -182,12 +182,12 @@ log(`tokens total: ${tokIn} in / ${tokOut} out  (~CNY ${((tokIn / 1e6) * 2 + (to
 
 const SUF = process.env.OUT_SUFFIX || '';
 // Write the DATA first: it is the expensive artefact (API tokens already spent).
-// A failure to write the convenience log must never destroy it — that happened
+// A failure to write the convenience log must never destroy it, that happened
 // once when the shell held the same filename open (EBUSY).
 writeFileSync(`${root}/paper/_surfaced_values${SUF}.json`, JSON.stringify(surfaced, null, 2), 'utf8');
 try {
   writeFileSync(`${root}/paper/_crossmodel${SUF}.log`, out.join('\n'), 'utf8');
 } catch (e) {
-  console.log(`(log file not written: ${e.code} — data JSON is safe)`);
+  console.log(`(log file not written: ${e.code}, data JSON is safe)`);
 }
 log(`\nwrote paper/_crossmodel.log and paper/_surfaced_values.json (${surfaced.length} surfaced values for audit)`);

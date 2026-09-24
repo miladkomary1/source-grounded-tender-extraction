@@ -2,15 +2,15 @@
 //
 // Determines, cheaply and deterministically, three things about a cleaned PCAP
 // that drive the rest of the pipeline:
-//   - contractType  — obras / servicios / suministros (LCSP calificación)
-//   - templateFamily — how the document presents its data, which decides which
+//   - contractType, obras / servicios / suministros (LCSP calificación)
+//   - templateFamily, how the document presents its data, which decides which
 //     extractor strategy the cascade should prefer:
 //       ccec-cuadro     : Leganés-style "CUADRO DE CARACTERÍSTICAS" with numbered
 //                         apartados ("8) PLAZO DE EJECUCIÓN ...")
 //       lettered-cuadro : a cuadro-resumen with lettered items ("A. PRESUPUESTO
 //                         BASE ... B. VALOR ESTIMADO ...")
 //       prose           : values stated in clause prose ("el plazo ... será de ...")
-//   - reportLanguage — es / ca / en (light heuristic; the request locale wins
+//   - reportLanguage, es / ca / en (light heuristic; the request locale wins
 //     when explicit, this is the document-content fallback).
 //
 // Pure and fail-soft: unknown inputs return 'desconocido' / 'unknown' / 'es'
@@ -50,7 +50,7 @@ export function classifyTemplateFamily(text: string): TemplateFamily {
 }
 
 // A "framework / model" pliego (pliego tipo / de aplicación general) does NOT
-// contain the specific contract figures — they are deferred to a per-contract
+// contain the specific contract figures, they are deferred to a per-contract
 // "Cuadro de Características Particulares" (CCP) or a fill-in annex. On these
 // documents blank amount fields are CORRECT, not a failure, so we detect and
 // surface that to the user instead of letting them think extraction broke.
@@ -61,7 +61,7 @@ export function detectFrameworkPliego(text: string): boolean {
   //
   // A real, specific pliego states a concrete budget figure near the budget
   // keywords. The framework signature is a "Cuadro de Características
-  // Particulares" / CCP marker WITHOUT any concrete budget present — the figures
+  // Particulares" / CCP marker WITHOUT any concrete budget present, the figures
   // are deferred to the per-contract CCP.
   //
   // Deliberately NOT used as a signal: blank fill-in placeholders ("……"/"___"),

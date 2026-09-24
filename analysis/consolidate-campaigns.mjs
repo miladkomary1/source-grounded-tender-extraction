@@ -1,7 +1,7 @@
-// MAJOR 3 — consolidate the three Gemini campaigns into ONE canonical figure,
+// MAJOR 3, consolidate the three Gemini campaigns into ONE canonical figure,
 // with an explicit between-campaign variance component; plus the PAIRED
 // gated-vs-ungated comparison Reviewer #1 asked for (Q3.3).
-// Pure arithmetic over the per-run values already in paper/*.log — no API cost.
+// Pure arithmetic over the per-run values already in paper/*.log, no API cost.
 import { writeFileSync } from 'node:fs';
 
 // Per-run accuracy (of 20 golden values), transcribed from the run logs.
@@ -32,14 +32,14 @@ const t = (df) => T[df] ?? 1.96;
 const out = [];
 const log = (s) => { console.log(s); out.push(s); };
 
-log('=== MAJOR 3 — CONSOLIDATION OF THE CANONICAL CONFIGURATION ===\n');
+log('=== MAJOR 3, CONSOLIDATION OF THE CANONICAL CONFIGURATION ===\n');
 
 // ---------- 1. Full workflow (gated, strict) pooled over all three campaigns ----------
 const camps = Object.entries(CAMP).map(([name, v]) => ({ name, runs: v.gated }));
 const all = camps.flatMap((c) => c.runs);
 const campMeans = camps.map((c) => mean(c.runs));
 
-log('Full workflow (gated, strict gate) — accuracy of 20 golden values');
+log('Full workflow (gated, strict gate), accuracy of 20 golden values');
 camps.forEach((c) => log(`  ${c.name}\n    n=${c.runs.length}  mean ${mean(c.runs).toFixed(2)}  SD ${sd(c.runs).toFixed(2)}`));
 
 const grand = mean(all);
@@ -63,7 +63,7 @@ log(`     drift of the unpinned deployed model that produced 17.0 / 16.2 / 16.4.
 log('\n--- PAIRED comparison, full workflow vs ungated hybrid (same runs) ---');
 const pairs = [];
 for (const [name, v] of Object.entries(CAMP)) {
-  if (!v.ungated) { log(`  ${name}: per-run ungated not logged — excluded from the paired test`); continue; }
+  if (!v.ungated) { log(`  ${name}: per-run ungated not logged, excluded from the paired test`); continue; }
   const d = v.gated.map((g, i) => g - v.ungated[i]);
   pairs.push(...d);
   log(`  ${name}: mean difference ${mean(d).toFixed(2)}`);
@@ -77,7 +77,7 @@ log('  the marginal intervals 16.5 vs 18.0, exactly as Reviewer #1 requested.');
 // ---------- 3. Relaxed gate, flagged as post-hoc ----------
 const rob = CAMP['C3 (sensitivity campaign, _run_robust.log)'];
 const dRob = rob.robust.map((r, i) => r - rob.gated[i]);
-log('\n--- Relaxed (token-based) gate — POST-HOC sensitivity, same campaign ---');
+log('\n--- Relaxed (token-based) gate, POST-HOC sensitivity, same campaign ---');
 log(`  strict ${mean(rob.gated).toFixed(2)}  →  relaxed ${mean(rob.robust).toFixed(2)}`);
 log(`  paired gain ${mean(dRob).toFixed(2)} ± ${(t(dRob.length - 1) * sd(dRob) / Math.sqrt(dRob.length)).toFixed(2)} values (in-sample; NOT a headline figure)`);
 

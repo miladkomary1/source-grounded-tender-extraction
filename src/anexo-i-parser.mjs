@@ -7,7 +7,7 @@
 // list (apartados 1..36, with sub-apartados such as 14.a, 34.1).
 //
 // Mapping of ficha fields to apartado numbers (Leganés-style PCAP, see
-// CLAUDE_CODE_HANDOFF.md §2 Phase 2):
+// mapping of ficha fields to apartado numbers):
 //
 //    1   Procedimiento + calificación
 //    2   Órgano contratante
@@ -35,7 +35,7 @@
 //   32   Composición Mesa de contratación
 //   33   Licitación electrónica
 //   34   Otras obligaciones esenciales y gastos por cuenta del contratista
-//        (sub-apartados 34.1..34.7 — críticos para Costes)
+//        (sub-apartados 34.1..34.7, críticos para Costes)
 //   35   Condiciones especiales de ejecución (social / medioambiental)
 //   36   Confidencialidad
 //
@@ -52,7 +52,7 @@ const MIN_VALID_APARTADOS = 8;
 const ANEXO_I_HEADING =
   /(?:^|\n)\s*ANEXO\s+I\b[^\n]*\n/i;
 
-// Heading that closes Anexo I — usually the next ANEXO (II/III/...) or a
+// Heading that closes Anexo I, usually the next ANEXO (II/III/...) or a
 // trailing signature page. We stop the scan at the first such marker.
 const ANEXO_I_TERMINATOR =
   /\n\s*(ANEXO\s+(?:II|III|IV|V|VI|VII|VIII|IX|X)\b|FIRMADO\s+ELECTR[ÓO]NICAMENTE)/i;

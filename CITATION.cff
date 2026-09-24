@@ -1,11 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper below."
-title: "Source-grounded hybrid extraction of construction procurement documents: evaluation harness, labels and reference implementation"
+title: "Source-grounded hybrid extraction from construction procurement documents: evaluation harness, labels and reference implementation"
+version: "2.0.0"
+date-released: "2026-09-24"
 abstract: >-
   Reference implementation, evaluation harness, hand-verified labels and analysis
   scripts for a source-grounded hybrid workflow that extracts decision-critical
   information from Spanish public works tender specifications. Every surfaced value
-  must be locatable in the source text and monetary arithmetic is validated.
+  must be locatable in the source text before it is shown. This release adds the
+  September 2026 campaign, whose archive holds every field of every document of every
+  run, so that every reported figure can be recomputed without querying the model.
 type: software
 license: MIT
 authors:
@@ -13,7 +17,7 @@ authors:
     given-names: "Seyedmilad"
     email: "milad.komary@upc.edu"
     orcid: "https://orcid.org/0000-0002-9010-2611"
-    affiliation: "Department of Construction Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain"
+    affiliation: "Department of Civil and Environmental Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain"
   - family-names: "Xia"
     given-names: "Ye"
     email: "yxia@tongji.edu.cn"
@@ -21,6 +25,7 @@ authors:
     affiliation: "School of Civil Engineering, Tongji University, Shanghai, China"
 keywords:
   - construction procurement
+  - building works tenders
   - information extraction
   - large language models
   - hallucination
@@ -29,15 +34,14 @@ keywords:
 repository-code: "https://github.com/miladkomary1/source-grounded-tender-extraction"
 preferred-citation:
   type: article
-  title: "Source-grounded hybrid extraction of decision-critical information from construction procurement documents"
-  journal: "Automation in Construction"
+  title: "Automated reading of building works tender documents: source grounding verifies retrieval and not interpretation"
   year: 2026
   status: submitted
   authors:
     - family-names: "Komarizadehasl"
       given-names: "Seyedmilad"
       orcid: "https://orcid.org/0000-0002-9010-2611"
-      affiliation: "Department of Construction Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain"
+      affiliation: "Department of Civil and Environmental Engineering, Universitat Politècnica de Catalunya (UPC), Barcelona, Spain"
     - family-names: "Xia"
       given-names: "Ye"
       orcid: "https://orcid.org/0000-0002-1548-0567"

@@ -1,4 +1,4 @@
-// Ground block — source-locatability gate for model ficha values.
+// Ground block, source-locatability gate for model ficha values.
 //
 // The findings path already refuses to surface anything not provable against
 // the source (verify.ts), but until now model FICHA values reached the user
@@ -10,14 +10,14 @@
 //
 // The check is the evaluation's ROBUST gate. Numeric content (Spanish
 // thousand-dot amounts, durations) must appear VERBATIM in the normalized
-// source — this keeps the zero-hallucination guarantee strict on the fields
+// source, this keeps the zero-hallucination guarantee strict on the fields
 // that carry financial risk. Purely textual values count as grounded when
 // every content token (>= 4 chars) appears in the source; the earlier
 // 18-char-prefix variant wrongly rejected correct categorical values the model
 // phrases with extra words ("Contrato de obras" where the source has "obras"),
 // costing 1.6/20 accuracy in the n=10 ablation (16.4 -> 18.0 when relaxed).
 //
-// Pure module — intentionally has NO imports (like ficha-normalize) so it
+// Pure module, intentionally has NO imports (like ficha-normalize) so it
 // loads under both Next and a plain Node test runner (scripts/benchmark.mjs).
 
 type GroundableField = {
@@ -68,7 +68,7 @@ function isGroundableField(raw: unknown): raw is GroundableField {
  * in notes so the UI can say WHY the field is empty. Array fields (criterios)
  * and boolean clauses pass through untouched.
  *
- * Deterministic ficha values must NOT be routed through this gate — they are
+ * Deterministic ficha values must NOT be routed through this gate, they are
  * source-anchored by construction and their clause references prove it.
  *
  * Returns the gated ficha plus the withheld field names (for telemetry).

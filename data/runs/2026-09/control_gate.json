@@ -1,0 +1,16 @@
+{
+ "verdict": "pass",
+ "control_complete": true,
+ "runs_complete_of_planned": "10 of 10",
+ "reason": "accuracy within 0.5 of 16.0: yes; coverage within 6.9 of 48.0: yes; served model is a gemini-2.5-flash build: yes; at least one run on the archive protocol: yes",
+ "full_workflow_accuracy_mean": 16.0,
+ "full_workflow_coverage_mean": 48.0,
+ "archived_accuracy": 16.0,
+ "archived_coverage": 48.0,
+ "runs_complete": 10,
+ "runs_planned": 10,
+ "models_served": [
+  "gemini-2.5-flash"
+ ],
+ "comparator": "legacy_containment"
+}

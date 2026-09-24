@@ -16,7 +16,7 @@ import type { Locale, Mode } from '../i18n-types';
 /** How a field/finding value was obtained, in cascade priority order. */
 export type ExtractionMethod = 'ccec' | 'generic' | 'ner' | 'llm' | 'derived';
 
-/** Template family of a pliego — drives which extractors run (Stage 1). */
+/** Template family of a pliego, drives which extractors run (Stage 1). */
 export type TemplateFamily = 'ccec-cuadro' | 'prose' | 'lettered-cuadro' | 'unknown';
 
 /** Contract type per LCSP. */
@@ -30,7 +30,7 @@ export type ContractType = 'obras' | 'servicios' | 'suministros' | 'mixto' | 'ot
  */
 export interface FieldResult {
   value: string | null;
-  /** 0..1 — higher means more trustworthy. */
+  /** 0..1, higher means more trustworthy. */
   confidence: number;
   method: ExtractionMethod;
   /** Character offsets into the cleaned source text, when known. */
@@ -51,7 +51,7 @@ export interface DocumentClassification {
 /**
  * A pipeline block: a focused transform over the shared context. Blocks are
  * async to allow remote blocks (Docling/NER service, Stage 6). They must be
- * fail-soft — a block that cannot run returns the context unchanged rather than
+ * fail-soft, a block that cannot run returns the context unchanged rather than
  * throwing, so an optional/remote stage never breaks the analysis.
  */
 export interface Block<Ctx> {

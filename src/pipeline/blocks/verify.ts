@@ -1,4 +1,4 @@
-﻿// Verify block — source-grounding for findings.
+﻿// Verify block, source-grounding for findings.
 //
 // Every finding the pipeline emits must be provable against the literal source
 // text: its clause_reference and source_excerpt must both appear in the cleaned
@@ -140,7 +140,7 @@ export function reattributeClause(finding: Finding, normalizedSource: string): F
 
   const excerptPositions = findExcerptPositions(normalizedSource, finding.source_excerpt);
   if (excerptPositions.length === 0) {
-    // Excerpt isn't in the source at all — verifyFinding will drop it regardless.
+    // Excerpt isn't in the source at all, verifyFinding will drop it regardless.
     return finding;
   }
 

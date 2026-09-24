@@ -1,4 +1,4 @@
-// MAJOR 7 — external baseline, quantified.
+// MAJOR 7, external baseline, quantified.
 //
 // Reviewer #1: "layout-aware parsers ... address exactly the table-heavy layouts
 // the deterministic engine struggles with. Running at least one of these on the
@@ -32,7 +32,7 @@ async function pdfjsText(p) {
 
 const out = [];
 const log = (s) => { console.log(s); out.push(s); };
-log('=== MAJOR 7 — EXTERNAL BASELINE: layout-aware parsing (Docling) vs pdfjs ===');
+log('=== MAJOR 7, EXTERNAL BASELINE: layout-aware parsing (Docling) vs pdfjs ===');
 log('Extraction engine held constant; only the PARSER differs.\n');
 log('doc                                  parser   secs    chars   cov/22  acc/gold');
 

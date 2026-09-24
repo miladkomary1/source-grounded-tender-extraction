@@ -1,7 +1,7 @@
 // Segment block (Stage 2).
 //
-// Builds a reusable structural map of a cleaned pliego — clause headings, annex
-// headings, and "cuadro" items (lettered "A. …" or numbered "8) …") — each with
+// Builds a reusable structural map of a cleaned pliego, clause headings, annex
+// headings, and "cuadro" items (lettered "A. …" or numbered "8) …"), each with
 // its character span. The deterministic extractors are anchored on the Leganés
 // CCEC apartado NUMBERS; on other layouts those numbers differ, so the engine
 // misses structural fields the document plainly states. This map lets an
