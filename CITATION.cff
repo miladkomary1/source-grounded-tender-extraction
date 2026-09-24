@@ -34,7 +34,7 @@ keywords:
 repository-code: "https://github.com/miladkomary1/source-grounded-tender-extraction"
 preferred-citation:
   type: article
-  title: "Automated reading of building works tender documents: source grounding verifies retrieval and not interpretation"
+  title: "Automated extraction of decision-critical data from building works tender documents and the limits of source grounding"
   year: 2026
   status: submitted
   authors:

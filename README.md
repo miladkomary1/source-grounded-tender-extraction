@@ -1,8 +1,8 @@
 # Source-grounded hybrid extraction from construction procurement documents
 
 Reference implementation, evaluation harness, hand-verified labels and analysis scripts
-for the manuscript **"Automated reading of building works tender documents: source
-grounding verifies retrieval and not interpretation"** (submitted for publication).
+for the manuscript **"Automated extraction of decision-critical data from building works tender
+documents and the limits of source grounding"** (submitted for publication).
 
 The workflow extracts a fixed set of decision-critical fields, budget, estimated contract
 value, deadlines, guarantees, solvency and classification requirements, from Spanish
