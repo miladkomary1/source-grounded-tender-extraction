@@ -25,7 +25,7 @@ authors:
     affiliation: "School of Civil Engineering, Tongji University, Shanghai, China"
 keywords:
   - construction procurement
-  - building works tenders
+  - construction tender documents
   - information extraction
   - large language models
   - hallucination
@@ -34,7 +34,7 @@ keywords:
 repository-code: "https://github.com/miladkomary1/source-grounded-tender-extraction"
 preferred-citation:
   type: article
-  title: "Automated extraction of decision-critical data from building works tender documents and the limits of source grounding"
+  title: "Source Grounding Verifies Retrieval and Not Interpretation in Automated Extraction from Construction Tender Documents"
   year: 2026
   status: submitted
   authors:
