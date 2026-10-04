@@ -6,3 +6,5 @@ data/corpus/*.pdf
 data/examples/*.pdf
 __pycache__/
 .DS_Store
+
+data/ted/pdf/

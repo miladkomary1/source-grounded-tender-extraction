@@ -1,0 +1,42 @@
+node : (node:24512) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of 
+file:///<path> is not specified and it 
+doesn't parse as CommonJS.
+At line:1 char:177
++ ... omary\Documents\projects\PCAP'; node paper/_baseline.mjs *>&1 | Tee-O ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:24512) [M...se as CommonJS.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to <path>
+(Use `node --trace-warnings ...` to show where the warning was created)
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+run 1: AI alone acc 15/20 (g76%) | det+AI ungated acc 18/20 (ungr 23%) | workflow gated acc 17/20 cov 46/88
+run 2: AI alone acc 15/20 (g74%) | det+AI ungated acc 17/20 (ungr 25%) | workflow gated acc 15/20 cov 47/88
+run 3: AI alone acc 18/20 (g70%) | det+AI ungated acc 20/20 (ungr 28%) | workflow gated acc 19/20 cov 47/88
+run 4: AI alone acc 15/20 (g78%) | det+AI ungated acc 18/20 (ungr 21%) | workflow gated acc 17/20 cov 45/88
+run 5: AI alone acc 16/20 (g74%) | det+AI ungated acc 19/20 (ungr 25%) | workflow gated acc 18/20 cov 44/88
+run 6: AI alone acc 15/20 (g81%) | det+AI ungated acc 18/20 (ungr 19%) | workflow gated acc 18/20 cov 48/88
+run 7: AI alone acc 15/20 (g73%) | det+AI ungated acc 18/20 (ungr 26%) | workflow gated acc 16/20 cov 42/88
+run 8: AI alone acc 14/20 (g77%) | det+AI ungated acc 17/20 (ungr 22%) | workflow gated acc 16/20 cov 36/88
+run 9: AI alone acc 15/20 (g83%) | det+AI ungated acc 17/20 (ungr 15%) | workflow gated acc 16/20 cov 50/88
+run 10: AI alone acc 16/20 (g72%) | det+AI ungated acc 19/20 (ungr 27%) | workflow gated acc 18/20 cov 46/88
+
+==== MODEL=gemini-2.5-flash | AGGREGATE over 10 complete runs (n=4 docs, 88 field-slots, 20 golden); intervals are 95% t-CI ====
+Deterministic only         : coverage 13/88 (15%)  accuracy 13/20 (65%)  ungrounded 0%  [reproducible]
+LLM, used as returned      : usable 0/88 (0%)  accuracy 0/20
+AI engine alone (no det)   : coverage 57.2 ± 3.9 (SD 5.5, range 44–64) /88   accuracy 15.4 ± 0.8 (SD 1.1, range 14–18) /20   ungrounded% 24.2 ± 2.9 (SD 4.0, range 17–30)
+Hybrid, UNGATED (det+AI)   : coverage 58.8 ± 3.7 (SD 5.2, range 46–65) /88   accuracy 18.1 ± 0.7 (SD 1.0, range 17–20) /20   ungrounded% 23.1 ± 2.8 (SD 4.0, range 15–28)
+Full workflow, GATED       : coverage 45.1 ± 2.8 (SD 3.9, range 36–50) /88   accuracy 17.0 ± 0.9 (SD 1.2, range 15–19) /20   surfaced ungrounded 0%
+
+>>> GATE EFFECT (Hybrid UNGATED vs Full workflow GATED — same det floor, differ only by the gate):
+    accuracy 18.1 -> 17.0 /20   |   ungrounded 23% -> 0%
+
+PER-DOC mean coverage (det/AI/gated):
+  9 f PCAP.pdf             1 / 10.8 / 6.3
+  PCAP DEFINITIVO.pdf      4 / 21.0 / 16.6
+  PCAP-Next-generation-O   3 / 4.7 / 4.7
+  Pliego de Cláusula Adm   5 / 20.7 / 17.5

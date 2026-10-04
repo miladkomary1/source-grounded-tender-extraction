@@ -1,0 +1,15 @@
+run 1: workflow 16/20 acc, cov 42/88 | ungated 17/20, ungr 16 | AI alone 12/20, ungrounded 35%
+run 2: workflow 16/20 acc, cov 42/88 | ungated 17/20, ungr 16 | AI alone 12/20, ungrounded 35%
+run 3: workflow 15/20 acc, cov 41/88 | ungated 17/20, ungr 17 | AI alone 12/20, ungrounded 37%
+run 4: workflow 16/20 acc, cov 39/88 | ungated 17/20, ungr 14 | AI alone 12/20, ungrounded 35%
+run 5: workflow 16/20 acc, cov 42/88 | ungated 17/20, ungr 17 | AI alone 12/20, ungrounded 36%
+
+==== CROSS-MODEL (deepseek-chat) over 5 complete runs | n=4 docs, 88 slots, 20 golden ====
+AI engine alone      : coverage 56.2 ± 3.0/88   accuracy 12.0 ± 0.0/20   ungrounded 35.6%
+Hybrid, UNGATED      : coverage 57.2 ± 3.0/88   accuracy 17.0 ± 0.0/20   ungrounded values 16.0
+Full workflow, GATED : coverage 41.2 ± 1.6/88   accuracy 15.8 ± 0.6/20   surfaced ungrounded 0
+tokens: 494215 in / 54040 out  (~CNY 1.421)
+
+---- Decomposed record-only schema (22 single-level fields), 1 pass ----
+decomposed schema: 4/4 docs returned usable output | coverage 51/88 | accuracy 14/20
+tokens total: 594026 in / 56204 out  (~CNY 1.638)

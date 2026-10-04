@@ -1,0 +1,2957 @@
+[
+  {
+    "id": "607-2025",
+    "file": "ted_607_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Kerry County Council_1204",
+    "title": "Ireland – Carriageway resurfacing works – N71 Muckross Pavement Improvement Project",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233223"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 1109916.8,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/607-2025/pdf"
+  },
+  {
+    "id": "2370-2025",
+    "file": "ted_2370_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Shercock Child Resource Centre Ltd.",
+    "title": "Ireland – Construction work – Shercock Child Resource Centre Ltd",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-01-13Z",
+    "value": 500000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4902985"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2370-2025/pdf"
+  },
+  {
+    "id": "4352-2025",
+    "file": "ted_4352_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Cork City Council",
+    "title": "Ireland – Carriageway resurfacing works – Roads Resurfacing Contract 2025",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233223",
+      "45233251",
+      "34922100",
+      "45233120",
+      "45233220",
+      "45233000",
+      "45233100",
+      "45233140"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-02-07Z",
+    "value": 6000000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4682170"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4352-2025/pdf"
+  },
+  {
+    "id": "4614-2025",
+    "file": "ted_4614_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Roscommon County Council_424",
+    "title": "Ireland – Construction work – Strokestown Public Realm Enhancement Scheme",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45210000",
+      "45220000"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-01-30Z",
+    "value": 6000000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4903997"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4614-2025/pdf"
+  },
+  {
+    "id": "6921-2025",
+    "file": "ted_6921_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Marymount University Hospital and Hospice Ltd.",
+    "title": "Ireland – Solar panel roof-covering work – Solar PV project",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45261215"
+    ],
+    "publicationDate": "2025-01-07",
+    "deadline": "2025-02-07Z",
+    "value": 400000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4909580"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6921-2025/pdf"
+  },
+  {
+    "id": "7410-2025",
+    "file": "ted_7410_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Dublin City Council",
+    "title": "Ireland – Road construction works – Contract for Duke St. Anne St. South Public Realm Scheme",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233120",
+      "45233161",
+      "45233223",
+      "45233290",
+      "45233291",
+      "45233293",
+      "03452000",
+      "45232151",
+      "45233251",
+      "45232411"
+    ],
+    "publicationDate": "2025-01-07",
+    "deadline": "2025-01-20Z",
+    "value": 7000000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4596699"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/7410-2025/pdf"
+  },
+  {
+    "id": "10379-2025",
+    "file": "ted_10379_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Marymount University Hospital and Hospice Ltd.",
+    "title": "Ireland – Solar panel roof-covering work – Solar PV project for Marymount Hospice - 06/01/2025",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45261215"
+    ],
+    "publicationDate": "2025-01-08",
+    "deadline": "2025-02-07Z",
+    "value": 400000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4911154"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/10379-2025/pdf"
+  },
+  {
+    "id": "10875-2025",
+    "file": "ted_10875_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Housing Association for Integrated Living",
+    "title": "Ireland – Construction work for houses – Tender for Refurbishment of Existing Dwelling",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45211100",
+      "45210000",
+      "45211300",
+      "44115000",
+      "44115800"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": 155152,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/10875-2025/pdf"
+  },
+  {
+    "id": "11092-2025",
+    "file": "ted_11092_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "The Old Dancehall Kenmare Limited",
+    "title": "Ireland – Construction work – The Old Dancehall Kenmare - Renovation Project 2025",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "44300000",
+      "45100000",
+      "45200000",
+      "45300000",
+      "45400000",
+      "45500000",
+      "50000000",
+      "50800000",
+      "90000000",
+      "44000000"
+    ],
+    "publicationDate": "2025-01-09",
+    "deadline": "2025-01-28Z",
+    "value": null,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4919573"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/11092-2025/pdf"
+  },
+  {
+    "id": "11647-2025",
+    "file": "ted_11647_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Respond",
+    "title": "Ireland – Building construction work – RFT - Call for main contractor Tender - Barrack Road, Youghal, Co. Cork",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45210000",
+      "45211100",
+      "45211000",
+      "45215214"
+    ],
+    "publicationDate": "2025-01-09",
+    "deadline": "2025-01-20Z",
+    "value": 5000000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4793586"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/11647-2025/pdf"
+  },
+  {
+    "id": "12711-2025",
+    "file": "ted_12711_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Marymount University Hospital and Hospice Ltd.",
+    "title": "Ireland – Solar panel roof-covering work – Solar PV project",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45261215"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/12711-2025/pdf"
+  },
+  {
+    "id": "13704-2025",
+    "file": "ted_13704_2025.pdf",
+    "country": "IRL",
+    "originalLanguage": "ENG",
+    "buyer": "Marymount University Hospital and Hospice Ltd.",
+    "title": "Ireland – Solar panel roof-covering work – Solar PV project - 07/01/25",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45261215"
+    ],
+    "publicationDate": "2025-01-09",
+    "deadline": "2025-02-07Z",
+    "value": 400000,
+    "documentsUrl": [
+      "https://www.etenders.gov.ie/epps/cft/listContractDocuments.do?resourceId=4913168"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/13704-2025/pdf"
+  },
+  {
+    "id": "251-2025",
+    "file": "ted_251_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Stadt Mannheim- Fachbereich Baurecht, Bauverwaltung und Denkmalschutz.",
+    "title": "Germany – Construction work for swimming pool – Neubau Kombibad Herzogenried",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45212212",
+      "45421000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-30+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://vergabe.vmstart.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-1940735006c-34b36ee1864ae5bf"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/251-2025/pdf"
+  },
+  {
+    "id": "350-2025",
+    "file": "ted_350_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Landratsamt Bad Tölz - Wolfratshausen",
+    "title": "Germany – Masonry work – Schulzentrum Bad Tölz: Sanierung Aula und Kiosk Realschule - Baumeisterarbeiten",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45262522"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-04+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://plattform.aumass.de/Veroeffentlichung/av24250c-eu"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/350-2025/pdf"
+  },
+  {
+    "id": "444-2025",
+    "file": "ted_444_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Deutsche Rentenversicherung Braunschweig-Hannover",
+    "title": "Germany – Electrical fitting work – KTW - Energetische Sanierung Trakt C - Medientechnik",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45311200"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/444-2025/pdf"
+  },
+  {
+    "id": "447-2025",
+    "file": "ted_447_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Terramag GmbH Treuhänder der Stadt Seligenstadt am Main Gebietsentwicklung \"Südwestlich des Westrings\"",
+    "title": "Germany – Road construction works – Erschließung NBG Südwestlich des Westrings",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233120"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-18+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.had.de/NetServer/TenderingProcedureDetails?function=_Details&TenderOID=54321-Tender-193e37c4fce-3ba8744e2e7e4f37"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/447-2025/pdf"
+  },
+  {
+    "id": "501-2025",
+    "file": "ted_501_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung - B10 Forschungsbau",
+    "title": "Germany – Sanitary fixture installation work – Sanitär-Wasseraufbereitung 70-00001-2660-40",
+    "contractNature": "works",
+    "cpv": [
+      "45332400"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/501-2025/pdf"
+  },
+  {
+    "id": "533-2025",
+    "file": "ted_533_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "WSW Energie & Wasser AG",
+    "title": "Germany – Construction work for pipelines, communication and power lines – Rahmenvertrag Tiefbauarbeiten Bezirk Ost 2025",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45231000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 8949757.91,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/533-2025/pdf"
+  },
+  {
+    "id": "544-2025",
+    "file": "ted_544_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "DB InfraGO AG – Geschäftsbereich Fahrweg (Bukr 16)",
+    "title": "Germany – Railway construction works – GSH Troisdorf - Unkel, LOS_200 - Oberbau Süd + Verkehrsstationen",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45234100"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": [
+      "https://bieterportal.noncd.db.de/evergabe.bieter/api/external/deeplink/subproject/2b4836bd-806c-46ff-a8a0-f2073502ac3d"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/544-2025/pdf"
+  },
+  {
+    "id": "579-2025",
+    "file": "ted_579_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Klinikum Westmünsterland GmbH",
+    "title": "Germany – Structural shell work – KWM / St. Marien-Krankenhaus Ahaus, Umbau und Erweiterung 5. BA: Rohbauarbeiten",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45223220",
+      "45111100",
+      "45112400",
+      "45113000",
+      "45262100",
+      "45262300",
+      "45262500",
+      "45410000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-31Z",
+    "value": null,
+    "documentsUrl": [
+      "http://www.deutsche-evergabe.de/dashboards/dashboard_off/175a68e7-f0c0-41da-9942-0ffe3f779bfe"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/579-2025/pdf"
+  },
+  {
+    "id": "642-2025",
+    "file": "ted_642_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Klinikum Westmünsterland GmbH",
+    "title": "Germany – Metalworking – KWM / St. Marien-Hospital Borken-Umbau und Erweiterung: Kunststoff- und Metallbauarbeiten",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45262670",
+      "45212190",
+      "45421130"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-31Z",
+    "value": null,
+    "documentsUrl": [
+      "http://www.deutsche-evergabe.de/dashboards/dashboard_off/493d4f1e-eaad-48e7-b981-388e2a8f0886"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/642-2025/pdf"
+  },
+  {
+    "id": "717-2025",
+    "file": "ted_717_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - Einkauf B12 - Vergabestelle Bau",
+    "title": "Germany – Other electrical installation work – Gebäudeautomation 70-00001-2170-57",
+    "contractNature": "works",
+    "cpv": [
+      "45317000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/717-2025/pdf"
+  },
+  {
+    "id": "790-2025",
+    "file": "ted_790_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Staatliches Bau- und Liegenschaftsamt Neubrandenburg",
+    "title": "Germany – Electrical fitting work – Elektroinstallation",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45311200"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-12+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.meinauftrag.rib.de/public/DetailsByPlatformIdAndTenderId/platformId/3/tenderId/139806"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/790-2025/pdf"
+  },
+  {
+    "id": "887-2025",
+    "file": "ted_887_2025.pdf",
+    "country": "DEU",
+    "originalLanguage": "DEU",
+    "buyer": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung - B10 Forschungsbau",
+    "title": "Germany – Electrical wiring and fitting work – Starkstromtechnik",
+    "contractNature": "works",
+    "cpv": [
+      "45311000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/887-2025/pdf"
+  },
+  {
+    "id": "17-2025",
+    "file": "ted_17_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "SEMITAN, mandataire de Nantes Métropole",
+    "title": "France – Site preparation and clearance work – MT13 - Accord-cadre d'accompagnement et de balisage",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45111200",
+      "45316000",
+      "77211400"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/17-2025/pdf"
+  },
+  {
+    "id": "66-2025",
+    "file": "ted_66_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "CA du Puy en Velay",
+    "title": "France – Sewerage work – Un accord-cadre composés de 3 lots pour les travaux de la Direction de l'Eau et de l'Assainissement -Communauté D'Agglomération du Puy ",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45232410",
+      "45232150",
+      "45232411",
+      "45232151"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 20000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/66-2025/pdf"
+  },
+  {
+    "id": "72-2025",
+    "file": "ted_72_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "CHU de Bordeaux",
+    "title": "France – Asbestos-removal work – Accord-cadre relatif aux travaux de désamiantage en sous-section III, et élimination des déchets au profit du GHT ALLIANCE GIRO",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45262660"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-07+02:00",
+    "value": 3650000,
+    "documentsUrl": [
+      "https://www.marches-publics.gouv.fr",
+      "https://www.marches-publics.gouv.fr",
+      "https://www.marches-publics.gouv.fr",
+      "https://www.marches-publics.gouv.fr",
+      "https://www.marches-publics.gouv.fr"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/72-2025/pdf"
+  },
+  {
+    "id": "81-2025",
+    "file": "ted_81_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "Société OZANAM",
+    "title": "France – Painting work – RELANCE ACCORD-CADRE A BONS DE COMMANDE TRAVAUX D'ENTRETIEN COURANT POUR LE LOT 26 A - PEINTURE CENTRE 1/AGENCE NORD SUR LE PATRIMOINE ",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45442100"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 67500,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/81-2025/pdf"
+  },
+  {
+    "id": "150-2025",
+    "file": "ted_150_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "SDEEG",
+    "title": "France – Firefighting equipment installation work – Travaux, entretien et contrôle de Défense Extérieure Contre l'Incendie (DECI) sur le Territoire de la Girond",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45343200"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 2400000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/150-2025/pdf"
+  },
+  {
+    "id": "348-2025",
+    "file": "ted_348_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "SIDEN SIAN et ses Régies Noréade",
+    "title": "France – Sewerage work – Commune de SAILLY-EN-OSTREVENT- (Département du Pas-De-Calais) Extension du réseau d'assainissement de collecte des Eaux Usées des Rues",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45232410",
+      "45232411",
+      "45232440",
+      "45232423",
+      "45232431",
+      "45231110"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-03-03+02:00",
+    "value": 929612.7,
+    "documentsUrl": [
+      "https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2024_D1gwTJYqDH"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/348-2025/pdf"
+  },
+  {
+    "id": "355-2025",
+    "file": "ted_355_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "SEMITAN, mandataire de Nantes Métropole",
+    "title": "France – Electrical wiring and fitting work – Raccordement Jamet-Romanet de la ligne 1 de Tramway - Marché MT3 Travaux de Courants Forts / Courants Faibles",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45311000",
+      "45310000",
+      "45311200",
+      "45315600"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 641946.04,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/355-2025/pdf"
+  },
+  {
+    "id": "432-2025",
+    "file": "ted_432_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "GRAND PORT MARITIME DE MARSEILLE",
+    "title": "France – Electrical installation work – Travaux d'entretien et d'extension des équipements et ouvrages des réseaux électriques des bassins EST du GPMM",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45310000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-13+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1579300"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/432-2025/pdf"
+  },
+  {
+    "id": "464-2025",
+    "file": "ted_464_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "SNCF RESEAU",
+    "title": "France – Underground passenger railway transport – Brive La Gaillarde (19) – Accessibilité PMR – TX de rehaussement Quai 1 et 5",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45234124"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 2649993.5,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/464-2025/pdf"
+  },
+  {
+    "id": "467-2025",
+    "file": "ted_467_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "Régie Immobilière de la Ville de Paris",
+    "title": "France – Building construction work – Marché travaux pour la réhabilitation d'un immeuble de 10 logements au 1 rue Thibaud 75014",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45210000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-21+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1579321"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/467-2025/pdf"
+  },
+  {
+    "id": "538-2025",
+    "file": "ted_538_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "Département de la Seine-Saint-Denis",
+    "title": "France – Grouting work – Travaux d'injections pour le comblement des vides à proximité des ouvrages d'assainissement",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45262340",
+      "45232410"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-05+01:00",
+    "value": 16000000,
+    "documentsUrl": [
+      "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1579416",
+      "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;type=DCE&amp;IDM=1579416"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/538-2025/pdf"
+  },
+  {
+    "id": "540-2025",
+    "file": "ted_540_2025.pdf",
+    "country": "FRA",
+    "originalLanguage": "FRA",
+    "buyer": "SNCF RESEAU",
+    "title": "France – Railway tunnel construction work – Tunnel de Viandes Renforcement par coques L590 (Départ 82)",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45221242"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 4424372,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/540-2025/pdf"
+  },
+  {
+    "id": "67-2025",
+    "file": "ted_67_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Giunta Regionale della Campania - Ufficio Speciale Centrale Acquisti",
+    "title": "Italy – Test drilling and boring work – Proc. n. 3776-AP-2024- AQ indagini Sarno",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45120000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 3564982.27,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/67-2025/pdf"
+  },
+  {
+    "id": "299-2025",
+    "file": "ted_299_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Scuola Superiore Meridionale",
+    "title": "Italy – Restructuring work – Lavori di adeguamento degli ambienti siti nell'edificio via Mezzocannone n.4 e nel Real Albergo dei Poveri per la realizzazione di ",
+    "contractNature": "works",
+    "cpv": [
+      "45454000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 3000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/299-2025/pdf"
+  },
+  {
+    "id": "489-2025",
+    "file": "ted_489_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "COMUNE DI LIVORNO - Ufficio Gare e Contratti",
+    "title": "Italy – Footpath construction work – ABBATTIMENTO BARRIERE ARCHITETTONICHE INTERVENTI SU ITINERARI PRINCIPALI E VARIE STRADE CITTADINE",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233161"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-25+01:00",
+    "value": 397334.71,
+    "documentsUrl": [
+      "https://start.toscana.it/tendering/tenders/058517-2024/view/detail/1"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/489-2025/pdf"
+  },
+  {
+    "id": "713-2025",
+    "file": "ted_713_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Acque spa",
+    "title": "Italy – Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork – Sistema di qualificazione per ca",
+    "contractNature": "works",
+    "cpv": [
+      "45230000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": [
+      "https://www.acque.net/fornitori/diventare-fornitori/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/713-2025/pdf"
+  },
+  {
+    "id": "1316-2025",
+    "file": "ted_1316_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Provincia Autonoma di Trento",
+    "title": "Italy – Construction work for buildings relating to law and order – AT6411_2024 LAVORI DI REALIZZAZIONE DELLA NUOVA PALAZZINA B COMPARTO 'L. BEDETTI' - GUARDIA ",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45216110"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-03-05+01:00",
+    "value": 19770000,
+    "documentsUrl": [
+      "https://contracta.provincia.tn.it/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1316-2025/pdf"
+  },
+  {
+    "id": "1361-2025",
+    "file": "ted_1361_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Comune di Genova",
+    "title": "Italy – Viaduct construction work – SISTEMA DI COLLEGAMENTO PEDONALE TRA LA STAZIONE ERZELLI-FS E LAEROPORTO CRISTOFORO COLOMBO, DENOMINATO MOVING WALKWAY APPAL",
+    "contractNature": "works",
+    "cpv": [
+      "45221120",
+      "42416000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1361-2025/pdf"
+  },
+  {
+    "id": "1565-2025",
+    "file": "ted_1565_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Comune di Genova",
+    "title": "Italy – Underground passenger railway transport – PROLUNGAMENTO METROPOLITANA GENOVA, TRATTA CANEPARI - RIVAROLO: OPERE CIVILI, IMPIANTI CIVILI GENERALI; IMPIAN",
+    "contractNature": "works",
+    "cpv": [
+      "45234124"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1565-2025/pdf"
+  },
+  {
+    "id": "2747-2025",
+    "file": "ted_2747_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Istituto Autonomo Case Popolari di Acireale",
+    "title": "Italy – Construction work – Affidamento dei lavori di cui al progetto “Realizzazione di n. 50 nuovi alloggi, un locale multifunzionale (di mq 220), spazi a verd",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-01-31+01:00",
+    "value": 6295153.26,
+    "documentsUrl": [
+      "https://tirrenoecosviluppo.acquistitelematici.it"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2747-2025/pdf"
+  },
+  {
+    "id": "3930-2025",
+    "file": "ted_3930_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Commissario di governo per il contrasto del dissesto idrogeologico della regione Calabria",
+    "title": "Italy – River-wall construction – Procedura aperta ex art 71 D. Lgs 36/2023 per l’affidamento del “Completamento degli interventi di messa in sicurezza degli ar",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45246100"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-02-14+01:00",
+    "value": 5905012.93,
+    "documentsUrl": [
+      "https://app.albofornitori.it/alboeproc/albo_commissariogovernocalabria"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3930-2025/pdf"
+  },
+  {
+    "id": "4416-2025",
+    "file": "ted_4416_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "PROVINCIA DI GROSSETO - Viabilità Trasporti Patrimonio Edilizia",
+    "title": "Italy – Structural works – GARA A PROCEDURA APERTA PER L’AFFIDAMENTO DEI LAVORI “Comune di Arcidosso – LAVORI DI “MESSA IN SICUREZZA DEL FRONTE LAVICO E VALORIZ",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45223200"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 522259.96,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4416-2025/pdf"
+  },
+  {
+    "id": "4560-2025",
+    "file": "ted_4560_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "Conservatorio Steffani",
+    "title": "Italy – Construction work for buildings of further education – Lavori di realizzazione della nuova sede del Conservatorio Steffani in Comune di Castelfranco Ven",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45214500"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 7322297.71,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4560-2025/pdf"
+  },
+  {
+    "id": "4692-2025",
+    "file": "ted_4692_2025.pdf",
+    "country": "ITA",
+    "originalLanguage": "ITA",
+    "buyer": "PROVINCIA DI GROSSETO - Viabilità Trasporti Patrimonio Edilizia",
+    "title": "Italy – Ground-stabilisation work – GARA A PROCEDURA APERTA PER L’AFFIDAMENTO DEI LAVORI “Comune di Scarlino – LAVORI DI “MESSA IN SICUREZZA E RIPRISTINO DELLA ",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45111230"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 122921.63,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4692-2025/pdf"
+  },
+  {
+    "id": "1011-2025",
+    "file": "ted_1011_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "ProRail B.V.",
+    "title": "Netherlands – Construction work for railways and cable transport systems – CONTRACTWIJZIGING Gebied Zee-Zevenaar - BBV binnen invloedsgebied heuvel en aanleg bl",
+    "contractNature": "works",
+    "cpv": [
+      "45234000",
+      "45000000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 1612519,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1011-2025/pdf"
+  },
+  {
+    "id": "1277-2025",
+    "file": "ted_1277_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Vattenfall",
+    "title": "Netherlands – Works for complete or part construction and civil engineering work – Heat Source Zeeburg - Civiele Werken",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45200000"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 0,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1277-2025/pdf"
+  },
+  {
+    "id": "2021-2025",
+    "file": "ted_2021_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "gemeente Vught",
+    "title": "Netherlands – Building installation work – Raamovereenkomst bouwteams verduurzaming vastgoed",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45300000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 25000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2021-2025/pdf"
+  },
+  {
+    "id": "3527-2025",
+    "file": "ted_3527_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Waterschap Vallei en Veluwe",
+    "title": "Netherlands – Dyke construction work – Gebiedsontwikkeling Grebbedijk",
+    "procedure": "comp-dial",
+    "contractNature": "works",
+    "cpv": [
+      "45247230",
+      "45231300",
+      "45233320",
+      "45246000",
+      "45247120",
+      "45247211",
+      "45248000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": null,
+    "documentsUrl": [
+      "https://www.tenderned.nl/aankondigingen/overzicht/362777"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3527-2025/pdf"
+  },
+  {
+    "id": "5723-2025",
+    "file": "ted_5723_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "RDW",
+    "title": "Netherlands – Construction work – Realisatie RDW Keuringslocatie Nieuwegein",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45300000"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": null,
+    "documentsUrl": [
+      "https://www.tenderned.nl/aankondigingen/overzicht/362816",
+      "https://www.tenderned.nl/aankondigingen/overzicht/362816"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/5723-2025/pdf"
+  },
+  {
+    "id": "6048-2025",
+    "file": "ted_6048_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Gemeente Zwolle",
+    "title": "Netherlands – Construction work for multi-dwelling buildings and individual houses – Grondverkoop Ontwikkeling Veld F2 De Tippe",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45211000",
+      "45000000",
+      "70111000"
+    ],
+    "publicationDate": "2025-01-07",
+    "deadline": "2025-02-18+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.tenderned.nl/aankondigingen/overzicht/362897"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6048-2025/pdf"
+  },
+  {
+    "id": "6556-2025",
+    "file": "ted_6556_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Waterschap Limburg",
+    "title": "Netherlands – Construction work for water projects – Raamovereenkomst Werken",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45240000",
+      "45242100",
+      "45244200",
+      "45246000",
+      "45247000",
+      "45248000",
+      "45243600"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 203000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6556-2025/pdf"
+  },
+  {
+    "id": "6805-2025",
+    "file": "ted_6805_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Rijkswaterstaat Programma's, Projecten en Onderhoud",
+    "title": "Netherlands – Highway maintenance work – 31156796: engineeren en uitvoeren van (Groot) Variabel Onderhoud aan het Hoofdwegennet (HWN) van West-Nederland Noord (",
+    "contractNature": "works",
+    "cpv": [
+      "45233139",
+      "45220000",
+      "45236000"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 14520277.07,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6805-2025/pdf"
+  },
+  {
+    "id": "7503-2025",
+    "file": "ted_7503_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Rijksvastgoedbedrijf",
+    "title": "Netherlands – Construction work – 26386| Nieuwe huisvesting Domeinen Roerende Zaken (DRZ) te Dronten",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "71000000"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 42999999,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/7503-2025/pdf"
+  },
+  {
+    "id": "7835-2025",
+    "file": "ted_7835_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Rijkswaterstaat Programma's, Projecten en Onderhoud",
+    "title": "Netherlands – Flood-defences maintenance works – 31070569: Aankondiging van een wijziging Werkzaamheden radarposten VOS",
+    "procedure": "neg-wo-call",
+    "contractNature": "works",
+    "cpv": [
+      "45246410",
+      "45262700"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 58467,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/7835-2025/pdf"
+  },
+  {
+    "id": "8505-2025",
+    "file": "ted_8505_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "N.V. HVC",
+    "title": "Netherlands – Plant upgrade work – Power wave generator - boiler cleaning",
+    "contractNature": "works",
+    "cpv": [
+      "45259900"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 2000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8505-2025/pdf"
+  },
+  {
+    "id": "8845-2025",
+    "file": "ted_8845_2025.pdf",
+    "country": "NLD",
+    "originalLanguage": "NLD",
+    "buyer": "Gemeente Gouda",
+    "title": "Netherlands – Building alteration work – Herbestemming Stadhuis Gouda",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45262700",
+      "45212314",
+      "45300000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": null,
+    "documentsUrl": [
+      "https://www.tenderned.nl/aankondigingen/overzicht/362926"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8845-2025/pdf"
+  },
+  {
+    "id": "16-2025",
+    "file": "ted_16_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad Oddział w Olsztynie",
+    "title": "Poland – Roadworks – Bieżące utrzymanie dróg krajowych, w zakresie nakładek i remontów cząstkowych, administrowanych przez GDDKiA Oddział w Olsztynie w podziale",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233140",
+      "45112100",
+      "45233200",
+      "45221111",
+      "45233141"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-10+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://gddkia.eb2b.com.pl/open-preview-auction.html/461088",
+      "https://gddkia.eb2b.com.pl/open-preview-auction.html/461088",
+      "https://gddkia.eb2b.com.pl/open-preview-auction.html/461088",
+      "https://gddkia.eb2b.com.pl/open-preview-auction.html/461088",
+      "https://gddkia.eb2b.com.pl/open-preview-auction.html/461088"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/16-2025/pdf"
+  },
+  {
+    "id": "105-2025",
+    "file": "ted_105_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Stalowowolskie Centrum Usług Wspólnych",
+    "title": "Poland – Works for complete or part construction and civil engineering work – Budowa nowych ścieżek rowerowych w Stalowej Woli",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45200000",
+      "71000000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-10+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-75709094-d2e7-450a-b313-949eea11e01b"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/105-2025/pdf"
+  },
+  {
+    "id": "111-2025",
+    "file": "ted_111_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "AGENCJA ROZWOJU PRZEMYSŁU SPÓŁKA AKCYJNA",
+    "title": "Poland – Construction work – Budowa Nabrzeża Trawlerowego oraz placów odkładczych na terenie wyspy Ostrów w Gdańsku",
+    "procedure": "comp-dial",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "71320000",
+      "71000000",
+      "45100000",
+      "45200000",
+      "45244000",
+      "45400000",
+      "45500000",
+      "45231000",
+      "45241500",
+      "42414150"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": [
+      "https://ezamowienia.gov.pl/mp-client/tenders/ocds-148610-468732fe-2786-4c2b-895a-de71b2ba0d7a"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/111-2025/pdf"
+  },
+  {
+    "id": "129-2025",
+    "file": "ted_129_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "SIM KZN Mazowsze Centrum Sp. z o. o.",
+    "title": "Poland – Building construction work – Budowa budynku mieszkalnego wielorodzinnego wraz z infrastrukturą przy ul. Żydowskiej w Grodzisku Mazowieckim",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45210000",
+      "45000000",
+      "45262600",
+      "45111291",
+      "45112710",
+      "45233140",
+      "45300000",
+      "45311200",
+      "45330000",
+      "45333000",
+      "45262522"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-03+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://simkznmazowszecentrum.ezamawiajacy.pl"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/129-2025/pdf"
+  },
+  {
+    "id": "139-2025",
+    "file": "ted_139_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad",
+    "title": "Poland – Works for complete or part construction and civil engineering work – Rozbudowa drogi krajowej nr 45 na odcinku Zawada - Jełowa",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45200000",
+      "45111200",
+      "45110000",
+      "45111000",
+      "45112000",
+      "45113000",
+      "45233200",
+      "45221110",
+      "45221121",
+      "45230000",
+      "45231000",
+      "45232000",
+      "45233000",
+      "45310000",
+      "45316000",
+      "45233290",
+      "71330000",
+      "71354000",
+      "71351914",
+      "71313450"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-04+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://gddkia.eb2b.com.pl"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/139-2025/pdf"
+  },
+  {
+    "id": "165-2025",
+    "file": "ted_165_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Polskie Sieci Elektroenergetyczne Spółka Akcyjna",
+    "title": "Poland – Construction work – Modernizacja stacji 400/110 kV Krosno Iskrzynia",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-23+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://przetargi.pse.pl"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/165-2025/pdf"
+  },
+  {
+    "id": "169-2025",
+    "file": "ted_169_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Poznańskie Inwestycje Miejskie sp. z o.o. w imieniu MIASTO POZNAŃ pl. Kolegiacki 17, 61-841 Poznań",
+    "title": "Poland – Tramline construction works – Budowa trasy tramwajowej w ul. Ratajczaka na odcinku od ul. Św. Marcin do ul. Królowej Jadwigi wraz ze skrzyżowaniem z ul",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45234126"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-24+01:00",
+    "value": null,
+    "documentsUrl": [
+      "www.pim.poznan.pl"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/169-2025/pdf"
+  },
+  {
+    "id": "353-2025",
+    "file": "ted_353_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Gdańskie Nieruchomości",
+    "title": "Poland – Construction work – Remont i przebudowa budynku mieszkalnego wielorodzinnego przy ul. Biskupiej 11 w Gdańsku, w ramach projektu p.n. „Rewitalizacja Bis",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "44212310",
+      "45100000",
+      "45111200",
+      "45111220",
+      "45111300",
+      "45223500",
+      "45261100",
+      "45261210",
+      "45261320",
+      "45262100",
+      "45262300",
+      "45262310",
+      "45262311",
+      "45262370",
+      "45262423",
+      "45262500",
+      "45310000",
+      "45312310",
+      "45320000",
+      "45330000",
+      "45331100",
+      "45331210",
+      "45332200",
+      "45400000",
+      "45410000",
+      "45421000",
+      "45421100",
+      "45421132",
+      "45421146",
+      "45430000",
+      "45431000",
+      "45442100",
+      "45443000",
+      "45450000",
+      "45453100"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": 4343731.59,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/353-2025/pdf"
+  },
+  {
+    "id": "739-2025",
+    "file": "ted_739_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Centrum Rzeźby Polskiej w Orońsku",
+    "title": "Poland – Construction work – Rozbudowa i modernizacja budynku Muzeum Rzeźby Współczesnej wraz z zagospodarowaniem terenu w ramach rewitalizacji społecznej Centr",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45100000",
+      "45210000",
+      "45320000",
+      "45400000",
+      "45454000",
+      "45453100",
+      "45331000",
+      "45453000",
+      "45330000",
+      "45231400",
+      "45311200",
+      "45312100",
+      "45310000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-10+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://ezamowienia.gov.pl/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/739-2025/pdf"
+  },
+  {
+    "id": "821-2025",
+    "file": "ted_821_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad",
+    "title": "Poland – Engineering works and construction works – Projekt i budowa urządzeń ograniczających oddziaływanie akustyczne na środowisko odcinków drogi S2.",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45220000",
+      "71320000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-10+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://gddkia.eb2b.com.pl/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/821-2025/pdf"
+  },
+  {
+    "id": "905-2025",
+    "file": "ted_905_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Operator Gazociągów Przesyłowych GAZ-SYSTEM S.A.",
+    "title": "Poland – Construction work for gas pipelines – Wykonanie robót budowlanych w zakresie budowy nowego agregatu sprężarkowego w Tłoczni Gazu Hołowczyce II",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45231220",
+      "45213251"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-17+01:00",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/905-2025/pdf"
+  },
+  {
+    "id": "981-2025",
+    "file": "ted_981_2025.pdf",
+    "country": "POL",
+    "originalLanguage": "POL",
+    "buyer": "Polskie Wydawnictwo Muzyczne",
+    "title": "Poland – Construction work – Modernizacja siedziby Polskiego Wydawnictwa Muzycznego przy al. Krasińskiego 11 w Krakowie",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-14+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://platformazakupowa.pl/pn/pwm"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/981-2025/pdf"
+  },
+  {
+    "id": "454-2025",
+    "file": "ted_454_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Telge Inköp AB",
+    "title": "Sweden – Ancillary works for water pipelines – Renovering av självfallsledning- flexibla foder",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45232100",
+      "45221230"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-15Z",
+    "value": 110000000,
+    "documentsUrl": [
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=38812"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/454-2025/pdf"
+  },
+  {
+    "id": "1232-2025",
+    "file": "ted_1232_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Telge Inköp AB",
+    "title": "Sweden – Works related to water-distribution pipelines – Rörspräckning, formpressning och splipning av VA-ledningar",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45232150",
+      "45221230"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-15Z",
+    "value": 250000000,
+    "documentsUrl": [
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=38813"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1232-2025/pdf"
+  },
+  {
+    "id": "1448-2025",
+    "file": "ted_1448_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Telge Inköp AB",
+    "title": "Sweden – Construction work for water and sewage pipelines – Borrningstekniker",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45231300",
+      "45221230"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-15Z",
+    "value": 90000000,
+    "documentsUrl": [
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=38811"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1448-2025/pdf"
+  },
+  {
+    "id": "2265-2025",
+    "file": "ted_2265_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Ystad Kommun",
+    "title": "Sweden – Alarm system and antenna installation work – DIS Teknisk säkerhet - Installationer och service",
+    "procedure": "oth-mult",
+    "contractNature": "works",
+    "cpv": [
+      "45312000",
+      "31625000",
+      "35120000",
+      "45310000",
+      "45312100",
+      "45312200"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 800000000,
+    "documentsUrl": [
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=40537",
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=40537",
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=40537",
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=40537",
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=40537"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2265-2025/pdf"
+  },
+  {
+    "id": "2586-2025",
+    "file": "ted_2586_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Trafikverket Myndighet",
+    "title": "Sweden – Construction work for buildings relating to railway transport – Basunderhåll av järnvägsanläggning Svealandsbanan. #5385",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45213320"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 366059668,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2586-2025/pdf"
+  },
+  {
+    "id": "3342-2025",
+    "file": "ted_3342_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Sigtuna kommun",
+    "title": "Sweden – Construction work – Ramavtal VA -anläggningsarbeten",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45240000",
+      "45231300",
+      "45231000",
+      "45231500"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 200000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3342-2025/pdf"
+  },
+  {
+    "id": "3414-2025",
+    "file": "ted_3414_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Akademiska Hus Aktiebolag",
+    "title": "Sweden – Building completion work – Anbudsansökan - Komplex ombyggnation, Utförandeentreprenad i Samverkan, Stockholm",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45400000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 200000000,
+    "documentsUrl": [
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=41685"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3414-2025/pdf"
+  },
+  {
+    "id": "3594-2025",
+    "file": "ted_3594_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Vatten och Miljöresurs Mitt AB",
+    "title": "Sweden – Construction work for water and sewage pipelines – Grävmaskintjänster i Hede och Vemdalen",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45231300"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 4439200,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3594-2025/pdf"
+  },
+  {
+    "id": "3700-2025",
+    "file": "ted_3700_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Aktiebolaget Skövdebostäder",
+    "title": "Sweden – Houses construction work – Nyproduktion av Bostäder - Vadden",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45211300",
+      "45000000",
+      "45200000",
+      "45210000",
+      "45211000",
+      "45211100",
+      "45211340",
+      "45211341",
+      "45300000",
+      "45421000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 92190000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3700-2025/pdf"
+  },
+  {
+    "id": "3710-2025",
+    "file": "ted_3710_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "ENG",
+    "buyer": "Kungliga Dramatiska teatern Aktiebolag",
+    "title": "Sweden – Electrical wiring and fitting work – New overstage machinery for the Small Stage",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45311000",
+      "31200000",
+      "31213000",
+      "31230000",
+      "45317000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 65000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3710-2025/pdf"
+  },
+  {
+    "id": "4844-2025",
+    "file": "ted_4844_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Västervik Miljö & Energi AB",
+    "title": "Sweden – Construction work – Ny ÅVC Målserum",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 58460000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4844-2025/pdf"
+  },
+  {
+    "id": "5116-2025",
+    "file": "ted_5116_2025.pdf",
+    "country": "SWE",
+    "originalLanguage": "SWE",
+    "buyer": "Region Sörmland",
+    "title": "Sweden – Ventilation and air-conditioning installation work – Årsentreprenad Ventilation",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45331200",
+      "45331210",
+      "45331220"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-02-05Z",
+    "value": 80000000,
+    "documentsUrl": [
+      "https://tendsign.com/doc.aspx?MeFormsNoticeId=41767"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/5116-2025/pdf"
+  },
+  {
+    "id": "2543-2025",
+    "file": "ted_2543_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Vejdirektoratet",
+    "title": "Denmark – Construction work – 6070.204 Vestvejen – Silkeborgvej, st. 128.500 – 134.200, Udbygning af E45 Vejle - Skanderborg",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45233000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 567897358.2,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2543-2025/pdf"
+  },
+  {
+    "id": "3616-2025",
+    "file": "ted_3616_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Vejdirektoratet",
+    "title": "Denmark – Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork – GENOP-AF Afvandingselementer. ",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45230000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 3142939,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3616-2025/pdf"
+  },
+  {
+    "id": "6240-2025",
+    "file": "ted_6240_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "HOFOR A/S",
+    "title": "Denmark – Construction work – Rammeaftale Renovering af Brønde og Ledninger, HOFOR, BIOFOS, Kbh. Kommune og Frederiksberg Forsyning",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "44000000"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 466000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6240-2025/pdf"
+  },
+  {
+    "id": "6903-2025",
+    "file": "ted_6903_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Ollerup - Vester Skerninge - Ulbølle Fjernvarme a.m.b.a.",
+    "title": "Denmark – Heating plant construction work – OVSU - Energicentral-entreprise",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45251200",
+      "45000000",
+      "45200000",
+      "45250000",
+      "45251000",
+      "71220000",
+      "71320000",
+      "45251250"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 46000000,
+    "documentsUrl": [
+      "https://rib-software.dk/udbudsportal"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6903-2025/pdf"
+  },
+  {
+    "id": "7862-2025",
+    "file": "ted_7862_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Horsens Kommune",
+    "title": "Denmark – Yacht harbour construction work – Horsens Kommune - Renovering af Estakaden",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45242210"
+    ],
+    "publicationDate": "2025-01-08",
+    "deadline": "2025-04-02+02:00",
+    "value": 50000000,
+    "documentsUrl": [
+      "https://my.ibinder.com/etendering/50c486bd-6e13-4cc6-a404-b10d777adea0/tenders/1KYJOX3SD/public"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/7862-2025/pdf"
+  },
+  {
+    "id": "8130-2025",
+    "file": "ted_8130_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "FREDENSBORG SPILDEVAND A/S",
+    "title": "Denmark – Construction work for sewage pipes – Udbud af strømpeforinger",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45232440",
+      "45232411",
+      "45232000",
+      "45232410"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 240000000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8130-2025/pdf"
+  },
+  {
+    "id": "8544-2025",
+    "file": "ted_8544_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Aarhus Universitet",
+    "title": "Denmark – Construction work – Lejekontrakt for bygningskompleks 1800-1802, Universitetsbyen 50, 8000 Aarhus C",
+    "procedure": "neg-wo-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 49693751,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8544-2025/pdf"
+  },
+  {
+    "id": "10352-2025",
+    "file": "ted_10352_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Danmarks Tekniske Universitet - DTU",
+    "title": "Denmark – Works for complete or part construction and civil engineering work – Udbud af entrepriseaftale om EL-arbejder i hovedtunnel",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45200000",
+      "45310000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 7925064,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/10352-2025/pdf"
+  },
+  {
+    "id": "10775-2025",
+    "file": "ted_10775_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Rødovre Kommune",
+    "title": "Denmark – Building construction work – Ny Genbrugsstation – Rødovre Kommune",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45210000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 46773000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/10775-2025/pdf"
+  },
+  {
+    "id": "12927-2025",
+    "file": "ted_12927_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "DSB",
+    "title": "Denmark – Construction work – Entrepriseudbud (tidlig involvering) vedrørende etablering af togværksted med tilhørende baneanlæg i Næstved",
+    "procedure": "neg-wo-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45210000",
+      "45213000",
+      "45220000",
+      "45230000",
+      "45234100"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/12927-2025/pdf"
+  },
+  {
+    "id": "13197-2025",
+    "file": "ted_13197_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Banedanmark",
+    "title": "Denmark – Construction work for pipelines, communication and power lines, for highways, roads, airfields and railways; flatwork – Na0070 Tidlig mobilisering",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45230000",
+      "45000000",
+      "45200000",
+      "45234000"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": 44805526,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/13197-2025/pdf"
+  },
+  {
+    "id": "13426-2025",
+    "file": "ted_13426_2025.pdf",
+    "country": "DNK",
+    "originalLanguage": "DAN",
+    "buyer": "Byggeri København, Københavns Kommume",
+    "title": "Denmark – Construction work – Skolen på Torveporten - Totalentreprise",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "71000000"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/13426-2025/pdf"
+  },
+  {
+    "id": "3219-2025",
+    "file": "ted_3219_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Naantalin kaupunki",
+    "title": "Finland – Construction work – Kalevanniemen kampus - A-osan sprinkleriurakka",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-01-26Z",
+    "value": null,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/naantali?id=535288&tpk=2ad405ed-8d94-4250-bde3-db52ee30cac0"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3219-2025/pdf"
+  },
+  {
+    "id": "4348-2025",
+    "file": "ted_4348_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Senaatti-kiinteistöt",
+    "title": "Finland – Alarm system and antenna installation work – Turvallisuusteknologia sekä siihen liittyvät palvelut",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45312000",
+      "31625300",
+      "35120000",
+      "35125100",
+      "35125300",
+      "42961000",
+      "45312200",
+      "50000000",
+      "51000000",
+      "72000000"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-01-29Z",
+    "value": 40000000,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/senaatti?id=536165&tpk=6f2a63c6-36bc-4a01-81ec-23e69010ea86"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4348-2025/pdf"
+  },
+  {
+    "id": "4675-2025",
+    "file": "ted_4675_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Helen Sähköverkko Oy",
+    "title": "Finland – Construction work – Helen Sähköverkko Oy:n Kruunuhaan sähköaseman kaapelointiurakka",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45314310"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 1300000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4675-2025/pdf"
+  },
+  {
+    "id": "5487-2025",
+    "file": "ted_5487_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Tampereen Energia Oy",
+    "title": "Finland – Insulation work – LLT45 Eristysurakka ja telinetyöt",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45320000",
+      "45321000",
+      "44212310",
+      "45262100",
+      "45262110",
+      "45262120"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 1375000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/5487-2025/pdf"
+  },
+  {
+    "id": "5669-2025",
+    "file": "ted_5669_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Kirkkonummen kunta",
+    "title": "Finland – Building construction work – Kirkkonummen kunnan pienet yksilöimättömät rakennus- ja LVIS-tekniset työt (797/2014/533216)",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45210000",
+      "50870000"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-01-31Z",
+    "value": 14400000,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/kirkkonummi?id=533216&tpk=92802f9b-0617-4b07-b807-15521694cabe"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/5669-2025/pdf"
+  },
+  {
+    "id": "7834-2025",
+    "file": "ted_7834_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Niiralan Kulma Oy",
+    "title": "Finland – Construction work – Markkinavuoropuhelu/Alava Rakennus A1, Kaartokatu 9, Kuopio, perusparannus",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/7834-2025/pdf"
+  },
+  {
+    "id": "9588-2025",
+    "file": "ted_9588_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Nurmijärven kunta",
+    "title": "Finland – Construction work – Lepsämän päiväkodin ja Lepsämän koulun Lintumetsän toimipisteen vuokratilat",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "44211000",
+      "45223810"
+    ],
+    "publicationDate": "2025-01-08",
+    "deadline": "2025-01-28Z",
+    "value": null,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/nurmijarvi?id=539095&tpk=58b1bb97-b0a1-4d15-b3ed-e72d15c15bae"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/9588-2025/pdf"
+  },
+  {
+    "id": "11210-2025",
+    "file": "ted_11210_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Helsingin kaupunki, kaupunkiympäristön toimiala",
+    "title": "Finland – Construction work – ENNAKKOILMOITUS: Maunulan ala-asteen perusparannus ja laajennus",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": null,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/helsinki?id=541264&tpk=2164344f-1291-4147-a9c3-d407b6412403"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/11210-2025/pdf"
+  },
+  {
+    "id": "12100-2025",
+    "file": "ted_12100_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Fingrid Oyj",
+    "title": "Finland – Construction work – Halsuan 400 kV sähköaseman maanrakennesurakkka/ Tarjousvaihe 1",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/12100-2025/pdf"
+  },
+  {
+    "id": "12107-2025",
+    "file": "ted_12107_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Lahden kaupunki",
+    "title": "Finland – Surface work for streets – Lahden kaupungin katutilan päällystys- ja kivityöt vuosille 2025–2028",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233252"
+    ],
+    "publicationDate": "2025-01-09",
+    "deadline": "2025-02-11Z",
+    "value": 9000000,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/lahti?id=538533&tpk=d691f058-642a-4376-84b9-4ec7d99e5861"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/12107-2025/pdf"
+  },
+  {
+    "id": "13140-2025",
+    "file": "ted_13140_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Helsingin kaupunki, kaupunkiympäristön toimiala",
+    "title": "Finland – Works for complete or part construction and civil engineering work – Hermanninrannan rakentaminen, vaihe 1, kokonaisurakka",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45200000"
+    ],
+    "publicationDate": "2025-01-09",
+    "deadline": "2025-02-20Z",
+    "value": null,
+    "documentsUrl": [
+      "https://tarjouspalvelu.fi/helsinki?id=541308&tpk=d25431a7-6a15-4644-8e04-07f425f5f56b"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/13140-2025/pdf"
+  },
+  {
+    "id": "13510-2025",
+    "file": "ted_13510_2025.pdf",
+    "country": "FIN",
+    "originalLanguage": "FIN",
+    "buyer": "Tulli",
+    "title": "Finland – Installation of cable laying – Tullin kaapelointi- ja laiteasennushankinnat",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45314310",
+      "31600000",
+      "45000000",
+      "45112000",
+      "45262210",
+      "45442120",
+      "71000000"
+    ],
+    "publicationDate": "2025-01-09",
+    "value": 3600000,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/13510-2025/pdf"
+  },
+  {
+    "id": "185-2025",
+    "file": "ted_185_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Instituto Politécnico do Porto",
+    "title": "Portugal – Construction work for lodging buildings – Empreitada de “Construção da Residência de Estudantes do Campus 1 - Breiner”",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45212410"
+    ],
+    "publicationDate": "2025-01-02",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/185-2025/pdf"
+  },
+  {
+    "id": "358-2025",
+    "file": "ted_358_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Instituto da Conservação da Natureza e das Florestas, IP",
+    "title": "Portugal – Refurbishment work – Empreitada obras públicas do Edifício do Centro de Operações e Técnicas Florestais (COTF)",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45453100"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-29Z",
+    "value": 1103350,
+    "documentsUrl": [
+      "https://community.vortal.biz/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/358-2025/pdf"
+  },
+  {
+    "id": "1034-2025",
+    "file": "ted_1034_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Município de Paços de Ferreira",
+    "title": "Portugal – Construction work for buildings relating to health – Construção novo centro de Saúde de Paços de Ferreira",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45215100"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-04Z",
+    "value": 12440808.65,
+    "documentsUrl": [
+      "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/ODI4MzEz"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1034-2025/pdf"
+  },
+  {
+    "id": "1385-2025",
+    "file": "ted_1385_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Águas do Tejo Atlântico, S.A.",
+    "title": "Portugal – Sewerage work – TA_24_153_CI_O_009_DEN - Empreitada de conceção-construção para a reabilitação do emissário submarino da FA da Nazaré",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45232410",
+      "45244100",
+      "45252124"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-03-03Z",
+    "value": null,
+    "documentsUrl": [
+      "www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/ODM2ODg4"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1385-2025/pdf"
+  },
+  {
+    "id": "1558-2025",
+    "file": "ted_1558_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Instituto da Conservação da Natureza e das Florestas, IP",
+    "title": "Portugal – Refurbishment work – Empreitada obras públicas do Edifício da Quinta de Marim - Centro Ed. Amb. Marim, Serv. Púb. Olhão, Ecomuseu J. Lúcio",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45453100"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-24Z",
+    "value": 1480020,
+    "documentsUrl": [
+      "https://community.vortal.biz/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1558-2025/pdf"
+  },
+  {
+    "id": "1643-2025",
+    "file": "ted_1643_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Município de Torres Vedras",
+    "title": "Portugal – Construction work for school buildings – Empreitada para construção da Escola Básica de A-dos-Cunhados",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45214200"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-02-24+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.acingov.pt"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1643-2025/pdf"
+  },
+  {
+    "id": "1749-2025",
+    "file": "ted_1749_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Município da Póvoa de Varzim",
+    "title": "Portugal – Construction work for multi-dwelling buildings and individual houses – Habitação a custos controlados - Habitação Jovem, 150 Fogos - Rua Dr. Belarmin",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45211000"
+    ],
+    "publicationDate": "2025-01-02",
+    "deadline": "2025-01-29+01:00",
+    "value": 10603000,
+    "documentsUrl": [
+      "https://community.vortal.biz"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1749-2025/pdf"
+  },
+  {
+    "id": "1896-2025",
+    "file": "ted_1896_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "OPART - Organismo de Produção Artística, E. P. E.",
+    "title": "Portugal – Restoration work – Empreitada de Conservação e Restauro Fase 1 – Sala Principal, Camarotes e Tribuna Real",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45454100"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-02-04+01:00",
+    "value": 800000,
+    "documentsUrl": [
+      "https://www.vortal.biz/pt-pt/"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1896-2025/pdf"
+  },
+  {
+    "id": "2945-2025",
+    "file": "ted_2945_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Santa Casa da Misericórdia de Vila do Conde",
+    "title": "Portugal – Construction work – Unidade Residencial da Lapa e Unidade de Cuidados Continuados",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-01-30+01:00",
+    "value": 8500000,
+    "documentsUrl": [
+      "https://www.acingov.pt"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2945-2025/pdf"
+  },
+  {
+    "id": "4119-2025",
+    "file": "ted_4119_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Instituto de Gestão Financeira da Segurança Social, I. P.",
+    "title": "Portugal – Restructuring work – EMPREITADA DE REABILITAÇÃO DE FRAÇÕES DEVOLUTAS DE RENDA LIVRE, SITAS NA AV. ALMIRANTE REIS N.º 243, LISBOA",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45454000"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 799948.86,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4119-2025/pdf"
+  },
+  {
+    "id": "4344-2025",
+    "file": "ted_4344_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "Universidade de Lisboa",
+    "title": "Portugal – Construction work for halls of residence – Empreitada de conclusão da construção da Residência de Estudantes da ULisboa sita na Av. das Forças Armada",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45214700"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-02-01Z",
+    "value": 6995000,
+    "documentsUrl": [
+      "www.acingov.pt"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4344-2025/pdf"
+  },
+  {
+    "id": "4478-2025",
+    "file": "ted_4478_2025.pdf",
+    "country": "PRT",
+    "originalLanguage": "POR",
+    "buyer": "AdRA - Águas da Região de Aveiro, S. A.",
+    "title": "Portugal – Resurfacing works – CP/2024/64_DOP - Recuperação de pavimentos",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45233251"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-01-27+01:00",
+    "value": 650000,
+    "documentsUrl": [
+      "https://www.acingov.pt"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4478-2025/pdf"
+  },
+  {
+    "id": "4455-2025",
+    "file": "ted_4455_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "Régie des Bâtiments",
+    "title": "Belgium – Museum construction work – Bruxelles - Musées Royaux de Beaux-Arts de Belgique - Sécurisation et aménagement des réserves temporaires dans les salles ",
+    "procedure": "oth-single",
+    "contractNature": "works",
+    "cpv": [
+      "45212313",
+      "45223110",
+      "45223210",
+      "45340000"
+    ],
+    "publicationDate": "2025-01-06",
+    "deadline": "2025-01-27+01:00",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4455-2025/pdf"
+  },
+  {
+    "id": "4983-2025",
+    "file": "ted_4983_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "FRA",
+    "buyer": "Banque nationale de Belgique",
+    "title": "Belgium – Lift installation work – Modernisering van liften",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45313100"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 1034377,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4983-2025/pdf"
+  },
+  {
+    "id": "6406-2025",
+    "file": "ted_6406_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "De Vlaamse Waterweg nv",
+    "title": "Belgium – Construction work for bridges – ARC-24-0002 Kleine Nete en Netekanaal te Nijlen, Ranst en Zandhoven. Bouwen van een nieuwe brug over de Kleine Nete en",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45221100",
+      "45200000",
+      "45240000",
+      "45233120"
+    ],
+    "publicationDate": "2025-01-07",
+    "deadline": "2025-01-31+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.publicprocurement.be/publication-workspaces/7b5f9e5b-0e33-43d4-a72c-735ed4c91ed0/documents"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6406-2025/pdf"
+  },
+  {
+    "id": "6441-2025",
+    "file": "ted_6441_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "VZW pkozo (Patrimonium Katholiek Onderwijs Zottegem en omgeving) en KSOZ VZW (Katholiek Secundair Onderwijs te Zottegem), bijgestaan door Belfius Bank nv, de heer Peter De Coninck, senior projectmanager",
+    "title": "Belgium – Construction work – VZW pkozo / KSOZ VZW: Nieuwbouw en renovatie van de campus Bevegem te Zottegem",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-07",
+    "deadline": "2025-03-07+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.publicprocurement.be/publication-workspaces/2f9bb86f-f305-4e2a-b5e9-6cacf81069bb/documents"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6441-2025/pdf"
+  },
+  {
+    "id": "6772-2025",
+    "file": "ted_6772_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "FRA",
+    "buyer": "European Parliament, INLO - Directorate-General for Infrastructure and Logistics",
+    "title": "Belgium – Construction work – 06D20/2024/M047 - Contrat-cadre de travaux d’entreprise générale pour les bâtiments du Parlement européen à Bruxelles",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45210000"
+    ],
+    "publicationDate": "2025-01-07",
+    "deadline": "2025-02-18+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/189a4c9d-714c-44ab-ba21-49d74e6d539b-CN?#anchorDocuments"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6772-2025/pdf"
+  },
+  {
+    "id": "6898-2025",
+    "file": "ted_6898_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "STEDELIJK ONTWIKKELINGSBEDRIJF LIER AG",
+    "title": "Belgium – Construction work – Herontwikkeling van de voormalige site Rerum Novarum",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 6200000,
+    "documentsUrl": [
+      "https://www.publicprocurement.be/publication-workspaces/1cb6fd21-84b3-4299-89d1-5f2a941e6195/documents"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/6898-2025/pdf"
+  },
+  {
+    "id": "7471-2025",
+    "file": "ted_7471_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "Stad Herentals",
+    "title": "Belgium – Construction work – Aanleg fietsinfrastructuur met fietstunnel en wegen- en rioleringswerken in Wiekevorstseweg, Molenstraat, Morkhovenseweg en Voortk",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-07",
+    "value": 9564159.56,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/7471-2025/pdf"
+  },
+  {
+    "id": "8794-2025",
+    "file": "ted_8794_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "Woonpijler",
+    "title": "Belgium – Construction work – Binnenkouter Westrem: nieuwbouw van 13 woonentiteit huur, 13 woonentiteiten koop en 5 geconventioneerd huren.",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-08",
+    "deadline": "2025-02-10+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.publicprocurement.be/publication-workspaces/ac773e4e-8ebb-4745-bca3-6243dbdda472/documents"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8794-2025/pdf"
+  },
+  {
+    "id": "9369-2025",
+    "file": "ted_9369_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "Région de Bruxelles-Capitale",
+    "title": "Belgium – Engineering works and construction works – Bouwopdracht voor 2 voetgangers - en fietsersbruggen in de kanaalzone onder de Sainctelettebrug en de De Tr",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45220000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 22919068.48,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/9369-2025/pdf"
+  },
+  {
+    "id": "9529-2025",
+    "file": "ted_9529_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "Infrabel sa",
+    "title": "Belgium – Construction work – Burgerlijke Bouwkunde voor het verbeteren van de waterhuishouding op L53 tussen kp21.70 en kp23.00, aanleg van een aanpalende fiet",
+    "procedure": "neg-wo-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 8268722.09,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/9529-2025/pdf"
+  },
+  {
+    "id": "9696-2025",
+    "file": "ted_9696_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "FRA",
+    "buyer": "Zone de Secours Luxembourg",
+    "title": "Belgium – Construction work – Construction d'une caserne de pompier à Marche-en-Famenne",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45216121",
+      "45216125"
+    ],
+    "publicationDate": "2025-01-08",
+    "deadline": "2025-01-31+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.publicprocurement.be/publication-workspaces/cbb26fca-7217-46f8-bfd8-0b72d36d0e98/documents"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/9696-2025/pdf"
+  },
+  {
+    "id": "9931-2025",
+    "file": "ted_9931_2025.pdf",
+    "country": "BEL",
+    "originalLanguage": "NLD",
+    "buyer": "Katholieke Universiteit te Leuven",
+    "title": "Belgium – Hospital facilities construction work – Fase VIII - Casco ruwbouw",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45215140"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": null,
+    "documentsUrl": [
+      "https://www.publicprocurement.be/publication-workspaces/bb30480c-7219-48ee-90d6-faf187a4a584/documents"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/9931-2025/pdf"
+  },
+  {
+    "id": "1970-2025",
+    "file": "ted_1970_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Autobahnen und Schnellstraßen Finanzierungs AG, vertreten durch Baumanagement GmbH",
+    "title": "Austria – Building installation work – A26 Linzer Autobahn, Knoten Hummelhof (A7) – Ast Donau Nord, Etappe 1, EM Einrichtungen",
+    "contractNature": "works",
+    "cpv": [
+      "45300000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 16672399.9,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/1970-2025/pdf"
+  },
+  {
+    "id": "2781-2025",
+    "file": "ted_2781_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Österreichische Gesundheitskasse - ÖGK",
+    "title": "Austria – Building installation work – ÖGK - DBS Facility Management Leistungen - Gewerk Elektroinstallationen",
+    "procedure": "restricted",
+    "contractNature": "works",
+    "cpv": [
+      "45300000",
+      "45311200",
+      "50700000",
+      "51100000"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 14362,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2781-2025/pdf"
+  },
+  {
+    "id": "2824-2025",
+    "file": "ted_2824_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Feistritzwerke-STEWEAG GmbH",
+    "title": "Austria – Construction work – Feistritzwerke - Installation von Lichtwellenleitern",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45311100",
+      "32562000",
+      "45311200"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 603496.51,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2824-2025/pdf"
+  },
+  {
+    "id": "2990-2025",
+    "file": "ted_2990_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "BMLV/Direktion 7 - Infrastruktur",
+    "title": "Austria – Construction work – S95510/644-Dion7/2024, 3425 Langenlebarn, Bahnstraße 62, Fliegerhorst FIGL/Flugplatz PABISCH, Obj. 023-Hangar, Neuerrichtung - Erw",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-02-07+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://gv.vergabeportal.at/Detail/201742"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/2990-2025/pdf"
+  },
+  {
+    "id": "3236-2025",
+    "file": "ted_3236_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Stadt Wien - Wiener Gesundheitsverbund",
+    "title": "Austria – Floor and wall covering work – Klinik Ottakring (KOR_P30) - Bodenleger inkl. Estrich - Sanierung bzw. Neuverortung Pav. 30 und 20",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45430000",
+      "45432000",
+      "45432130",
+      "45262321",
+      "45262320"
+    ],
+    "publicationDate": "2025-01-03",
+    "value": 941706.97,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3236-2025/pdf"
+  },
+  {
+    "id": "3331-2025",
+    "file": "ted_3331_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Magistrat der Stadt Wien - Magistratsabteilung 28",
+    "title": "Austria – Construction work – 10., Supergrätzl Favoriten - Bauphase 2",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "45233140",
+      "45233120",
+      "45233222",
+      "45233223",
+      "45233252",
+      "45112100",
+      "45231100",
+      "45231300",
+      "45233123",
+      "45233251",
+      "45233161",
+      "45112200",
+      "45112400",
+      "45232452"
+    ],
+    "publicationDate": "2025-01-03",
+    "deadline": "2025-02-04+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://www.wien.gv.at/Vergabeportal/Detail/201818"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3331-2025/pdf"
+  },
+  {
+    "id": "3910-2025",
+    "file": "ted_3910_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Stadt Wien - Wiener Gesundheitsverbund",
+    "title": "Austria – Other electrical installation work – Klinik Ottakring (KOR_P30) - MT Leuchten und Stative - Sanierung bzw. Neuverortung Pav. 30 und 20",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45317000",
+      "31500000",
+      "31520000",
+      "31524110",
+      "31530000"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 288044.85,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/3910-2025/pdf"
+  },
+  {
+    "id": "4193-2025",
+    "file": "ted_4193_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Marktgemeinde Peilstein im Mühlviertel",
+    "title": "Austria – Construction work – Vergabeverfahren Totalübernehmer „Neubau oder Sanierung der Volksschule und anteilige Sanierung der Mittelschule Peilstein im Mühl",
+    "procedure": "neg-w-call",
+    "contractNature": "works",
+    "cpv": [
+      "45000000",
+      "71500000"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": null,
+    "documentsUrl": [
+      "https://gv.vergabeportal.at/Detail/201894"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/4193-2025/pdf"
+  },
+  {
+    "id": "5115-2025",
+    "file": "ted_5115_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Stadt Wien - Wiener Wohnen",
+    "title": "Austria – Joinery work – Rahmenvertrag für Tischlerarbeiten in den Objekten der Stadt Wien - Wiener Wohnen",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45421000"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": null,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/5115-2025/pdf"
+  },
+  {
+    "id": "5416-2025",
+    "file": "ted_5416_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Stadt Wien - Wiener Wohnen",
+    "title": "Austria – Lightning-protection works – Rahmenvertrag Blitzschutzanlagen instandsetzen in den Objekten der Stadt Wien - Wiener Wohnen",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45312310"
+    ],
+    "publicationDate": "2025-01-06",
+    "value": 21250601.45,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/5416-2025/pdf"
+  },
+  {
+    "id": "8435-2025",
+    "file": "ted_8435_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Stadt Wien - Wiener Wohnen",
+    "title": "Austria – Roof insulation work – 21., Prager Straße 92-96",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45261410",
+      "45261300",
+      "45261000"
+    ],
+    "publicationDate": "2025-01-08",
+    "value": 1458596.95,
+    "documentsUrl": null,
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8435-2025/pdf"
+  },
+  {
+    "id": "8436-2025",
+    "file": "ted_8436_2025.pdf",
+    "country": "AUT",
+    "originalLanguage": "DEU",
+    "buyer": "Bundesministerium für Bildung, Wissenschaft und Forschung vertreten durch die Bundesimmobiliengesellschaft mbH.",
+    "title": "Austria – Metalworking – 9100 Völkermarkt, Pestalozzi-Straße 1; Neubau BSZ Völkermarkt - Schlosserarbeiten",
+    "procedure": "open",
+    "contractNature": "works",
+    "cpv": [
+      "45262670"
+    ],
+    "publicationDate": "2025-01-08",
+    "deadline": "2025-02-12+01:00",
+    "value": null,
+    "documentsUrl": [
+      "https://big.vergabeportal.at/Detail/202044"
+    ],
+    "pdfEnglish": "https://ted.europa.eu/en/notice/8436-2025/pdf"
+  }
+]

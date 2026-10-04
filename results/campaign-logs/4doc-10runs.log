@@ -1,5 +1,5 @@
 ﻿node : (node:21916) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of 
-file:///C:/Users/milad.komary/Documents/projects/PCAP/lib/pipeline/blocks/ficha-normalize.ts is not specified and it 
+file:///<path> is not specified and it 
 doesn't parse as CommonJS.
 At line:8 char:1
 + node paper/_baseline.mjs > "paper\_run_4doc_fixed_10runs.log" 2>&1
@@ -8,7 +8,7 @@ At line:8 char:1
     + FullyQualifiedErrorId : NativeCommandError
  
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\milad.komary\Documents\projects\PCAP\package.json.
+To eliminate this warning, add "type": "module" to <path>
 (Use `node --trace-warnings ...` to show where the warning was created)
 Warning: TT: undefined function: 32
 Warning: TT: undefined function: 32

@@ -118,6 +118,35 @@ template diversity. Reproduce with `npm run analysis:pool`; the pass logs are in
 
 ---
 
+## Supplemental material
+
+`supplemental/` carries the supplemental document of the article, as
+`supplemental-material.pdf` and as `supplemental-material.docx`, with a one-line index
+of its twenty-four items in `supplemental/README.md`.
+
+---
+
+## The multi-country study
+
+The study of numeric representation failure across jurisdictions is in
+`analysis/numeric-failure/`. `data/ted/manifest.json` defines the corpus of 144 works
+contract notices from twelve member states, 87 of which carry a published contract
+value.
+
+```bash
+npm run ted:fetch       # rebuild the manifest from the TED search API
+npm run ted:download    # fetch the English renderings into data/ted/pdf/
+npm run ted:numeric     # the three parsing strategies on the 87 published values
+npm run ted:gate        # does the grounding gate admit the misread values?
+npm run ted:factors     # the error factor over all 42 silently wrong values
+python analysis/numeric-failure/make-figures.py
+```
+
+The first two steps need the network and no key; the rest run offline once the notices
+are on disk. Committed outputs are in `results/numeric-failure/`.
+
+---
+
 ## Cost
 
 Measured from the archived per-call usage of the canonical campaign, at prices accessed
@@ -194,6 +223,9 @@ analysis/               the scripts that produce the numbers of the August campa
 results/                the outputs those scripts produce, as committed
   2026-09/              the canonical campaign: results digest, configuration, cost
 human-study/            two browser-based instruments for independent annotation and audit
+  data/ted/             the multi-country corpus of published contract notices
+  analysis/numeric-failure/  the multi-country study and its figures
+  supplemental/         the supplemental document of the article
 ```
 
 ---

@@ -1,15 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper below."
 title: "Source-grounded hybrid extraction from construction procurement documents: evaluation harness, labels and reference implementation"
-version: "2.0.0"
-date-released: "2026-09-24"
+version: "2.1.0"
+date-released: "2026-10-04"
 abstract: >-
   Reference implementation, evaluation harness, hand-verified labels and analysis
   scripts for a source-grounded hybrid workflow that extracts decision-critical
   information from Spanish public works tender specifications. Every surfaced value
   must be locatable in the source text before it is shown. This release adds the
-  September 2026 campaign, whose archive holds every field of every document of every
-  run, so that every reported figure can be recomputed without querying the model.
+  multi-country study of numeric representation failure, with the corpus definition,
+  the measurement scripts and their outputs, the console transcripts of the campaigns
+  that precede the canonical one, and the supplemental document of the article.
 type: software
 license: MIT
 authors:

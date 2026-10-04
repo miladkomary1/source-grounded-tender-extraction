@@ -1,0 +1,19 @@
+=== IS THE SOURCE-GROUNDING GATE BLIND TO MISREADING? ===
+
+silently corrupted amounts examined : 86
+  admitted by the grounding gate    : 86
+  rejected by the grounding gate    : 0
+
+The gate admits 86 of 86 (100.0 %) of the values it has misread,
+because the fragment it surfaced is, by construction, a substring of the document.
+
+EXAMPLES
+country  printed in document      surfaced      parsed as     reference      gate
+  IRL    "1 109 916,80"       916,80       916.8        1109916.8     ADMITS
+  IRL    "500 000,00"         000,00       0            500000        ADMITS
+  IRL    "6 000 000,00"       000,00       0            6000000       ADMITS
+  IRL    "6 000 000,00"       000,00       0            6000000       ADMITS
+  IRL    "400 000,00"         000,00       0            400000        ADMITS
+  IRL    "7 000 000,00"       000,00       0            7000000       ADMITS
+  IRL    "400 000,00"         000,00       0            400000        ADMITS
+  IRL    "155 152,00"         152,00       152          155152        ADMITS

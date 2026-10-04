@@ -1,0 +1,31 @@
+=== NUMERIC REPRESENTATION FAILURE ACROSS JURISDICTIONS ===
+corpus: 87 TED notices with a published reference amount,
+12 countries, English renderings
+
+amount located in the document text: 87 of 87 (0 not located, excluded)
+
+HOW THE AMOUNTS ARE PRINTED
+  space-grouped   86
+  plain           1
+
+PARSING OUTCOME (of the located amounts)
+strategy                       correct   SILENTLY WRONG   refused to parse
+as shipped (Spanish parser)          0               42                 45
+after the space repair              19               43                 25
+convention-aware parser             86                0                  1
+
+The parser as shipped silently returns a wrong amount for 42 of 87 values (48.3 %).
+Every one of those is a substring of the document, so the source-grounding gate
+admits it. None is detectable by any check the workflow currently applies.
+
+EXAMPLES (printed rendering, what the shipped parser returns, error factor)
+  IRL  printed "1 109 916,80"         reference 1109916.8    parsed 916.8      off by 1211x
+  IRL  printed "155 152,00"           reference 155152       parsed 152        off by 1021x
+  DEU  printed "8 949 757,91"         reference 8949757.91   parsed 757.91     off by 11808x
+  FRA  printed "67 500,00"            reference 67500        parsed 500        off by 135x
+  FRA  printed "929 612,70"           reference 929612.7     parsed 612.7      off by 1517x
+  FRA  printed "641 946,04"           reference 641946.04    parsed 946.04     off by 679x
+  FRA  printed "2 649 993,50"         reference 2649993.5    parsed 993.5      off by 2667x
+  FRA  printed "4 424 372,00"         reference 4424372      parsed 372        off by 11893x
+  ITA  printed "3 564 982,27"         reference 3564982.27   parsed 982.27     off by 3629x
+  ITA  printed "397 334,71"           reference 397334.71    parsed 334.71     off by 1187x
