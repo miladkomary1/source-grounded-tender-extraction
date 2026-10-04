@@ -1,7 +1,7 @@
 {
-  "title": "Source-grounded hybrid extraction from construction procurement documents: evaluation harness, labels and reference implementation",
+  "title": "Data, code and supplemental material for Source Grounding Verifies Retrieval and Not Interpretation in Automated Extraction from Construction Tender Documents",
   "description": "Reference implementation, evaluation harness, 20 hand-verified golden labels, the 26-document replication corpus manifest, raw run outputs of two campaigns, analysis scripts and two human-study instruments, supporting the manuscript \"Source Grounding Verifies Retrieval and Not Interpretation in Automated Extraction from Construction Tender Documents\". The workflow requires every surfaced value to be locatable in the source text before it is shown. This release adds the September 2026 campaign (C-R2-4DOC): 200 document-runs across six arms, archiving every field of every document of every run with the request outcome, latency and token usage of each call, so that every reported figure can be recomputed without querying the model. The deployed web application is deliberately excluded; it forms no part of the reported method.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "mit",
   "upload_type": "software",
   "access_right": "open",

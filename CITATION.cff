@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper below."
-title: "Source-grounded hybrid extraction from construction procurement documents: evaluation harness, labels and reference implementation"
+title: "Data, code and supplemental material for Source Grounding Verifies Retrieval and Not Interpretation in Automated Extraction from Construction Tender Documents"
 version: "2.1.0"
 date-released: "2026-10-04"
 abstract: >-
